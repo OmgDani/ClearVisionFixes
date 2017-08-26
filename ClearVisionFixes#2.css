@@ -245,3 +245,6 @@ DIV.slider-handle{
 	background-color: transparent !important;
 	box-shadow: none !Important;}
 
+.tooltip.tooltip-top,.tooltip.tooltip-right, .tooltip.tooltip-bottom{
+    background: var(--main-color);
+}
