@@ -248,3 +248,23 @@ DIV.slider-handle{
 .tooltip.tooltip-top,.tooltip.tooltip-right, .tooltip.tooltip-bottom{
     background: var(--main-color);
 }
+.private .private-channel-call-btns-wrapper button:nth-child(1) span {
+    background-image: url(https://cdn.rawgit.com/Zerthox/ClearVision/master/icons/videocam.svg) !important;
+}
+
+.private .channel-group-dm + .header-toolbar > .private-channel-call-btns-wrapper > button:first-child span {
+    background-image: url(https://cdn.rawgit.com/Zerthox/ClearVision/master/icons/videocam.svg) !important;
+}
+
+.private .channel-group-dm + .header-toolbar > .private-channel-call-btns-wrapper > button:nth-child(2) span {
+    background-image: url(https://cdn.rawgit.com/Zerthox/ClearVision/master/icons/call.svg) !important;
+}
+
+.channelTextAreaEnabled-c05Zpy.channelTextArea-1HTP3C.channel-text-area-default {
+    box-shadow: 0 0 10px var(--main-color);
+    border-radius: 5px;
+    margin: 10px 0 30px;
+}
+.innerEnabled-gLHeOL.inner-3if5cm.flex-3B1Tl4.innerNoAutocomplete-kaUXJZ {
+    border: 1px solid var(--main-color);
+}
