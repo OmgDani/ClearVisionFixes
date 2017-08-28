@@ -309,5 +309,9 @@ DIV.slider-handle{
 }
 
 .create-guild-container.deprecated .action:hover.join .btn{
-  background-color: var(--hover-color);
+  background-color: var(--hover-color)!important;
+}
+
+.create-guild-container.deprecated .action{
+  background: transparent;
 }
