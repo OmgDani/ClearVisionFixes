@@ -1,3 +1,4 @@
+/*---------------------------User popout fixes---------------------------*/
 .userPopout-4pfA0d .body-3rkFrF .bodyTitleText-hSiL7d {
   color: #A7A7A7
 }
@@ -267,4 +268,46 @@ DIV.slider-handle{
 }
 .innerEnabled-gLHeOL.inner-3if5cm.flex-3B1Tl4.innerNoAutocomplete-kaUXJZ, .innerEnabled-gLHeOL.inner-3if5cm.flex-3B1Tl4.innerAutocomplete-2qsvzH {
     border: 1px solid var(--main-color);
+}
+/*---------------------------Join and create server modal fixes---------------------------*/
+.action.join {
+  border: 1px solid var(--main-color);
+}
+
+.create-guild-container.deprecated .join-server .sample-link {
+  color: var(--main-color);
+}
+
+.create-guild-container.deprecated {
+  background-color: transparent
+}
+
+.create-guild-container.deprecated .form.deprecated .form-inner {
+  background: rgba(0, 0, 0, 0.8);
+}
+
+.create-guild-container .actions {
+  background: rgba(0, 0, 0, 0.58)
+}
+
+.create-guild-container.deprecated .create-or-join .actions .or{
+  color: #000;
+  filter: invert(100%);
+  -webkit-filter: invert(100%);
+}
+
+.create-guild-container.deprecated .action.create .action-header, .create-guild-container.deprecated .action.join .action-header{
+  color: var(--main-color);
+}
+.create-guild-container.deprecated .action.create .action-icon, .create-guild-container.deprecated .action.join .action-icon, .create-guild-container.deprecated .create-or-join header{
+  -webkit-filter: invert() hue-rotate(180deg);
+  filter: invert() hue-rotate(180deg);
+}
+
+.create-guild-container.deprecated .action.join .btn{
+  background-color: var(--main-color);
+}
+
+.create-guild-container.deprecated .action:hover.join .btn{
+  background-color: var(--hover-color);
 }
