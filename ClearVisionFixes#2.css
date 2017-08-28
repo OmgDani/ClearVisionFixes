@@ -296,10 +296,10 @@ DIV.slider-handle{
   -webkit-filter: invert(100%);
 }
 
-.create-guild-container.deprecated .action.create .action-header, .create-guild-container.deprecated .action.join .action-header{
+.create-guild-container.deprecated .action.create .action-header, .create-guild-container.deprecated .action.join .action-header, .create-guild-container.deprecated .create-or-join header{
   color: var(--main-color);
 }
-.create-guild-container.deprecated .action.create .action-icon, .create-guild-container.deprecated .action.join .action-icon, .create-guild-container.deprecated .create-or-join header{
+.create-guild-container.deprecated .action.create .action-icon, .create-guild-container.deprecated .action.join .action-icon{
   -webkit-filter: invert() hue-rotate(180deg);
   filter: invert() hue-rotate(180deg);
 }
