@@ -246,7 +246,7 @@ DIV.slider-handle{
 	background-color: transparent !important;
 	box-shadow: none !Important;}
 
-.tooltip.tooltip-top,.tooltip.tooltip-right, .tooltip.tooltip-bottom{
+.tooltip.tooltip-top, .tooltip.tooltip-right, .tooltip.tooltip-bottom,.tooltip.tooltip-left {
     background: var(--main-color);
 }
 .private .private-channel-call-btns-wrapper button:nth-child(1) span {
