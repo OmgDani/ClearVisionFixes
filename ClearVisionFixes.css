@@ -247,7 +247,7 @@ DIV.slider-handle{
 	box-shadow: none !Important;}
 
 .tooltip.tooltip-top, .tooltip.tooltip-right, .tooltip.tooltip-bottom, .tooltip.tooltip-left {
-    background: var(--main-color);
+    background: var(--main-color) !important;
 }
 .private .private-channel-call-btns-wrapper button:nth-child(1) span {
     background-image: url(https://cdn.rawgit.com/Zerthox/ClearVision/master/icons/videocam.svg) !important;
