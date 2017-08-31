@@ -269,6 +269,12 @@ DIV.slider-handle{
 .innerEnabled-gLHeOL.inner-3if5cm.flex-3B1Tl4.innerNoAutocomplete-kaUXJZ, .innerEnabled-gLHeOL.inner-3if5cm.flex-3B1Tl4.innerAutocomplete-2qsvzH {
     border: 1px solid var(--main-color);
 }
+
+.innerEnabledNoAttach-36PpAk.inner-3if5cm.flex-3B1Tl4.innerNoAutocomplete-kaUXJZ, .innerEnabledNoAttach-36PpAk.inner-3if5cm.flex-3B1Tl4.innerAutocomplete-2qsvzH{
+    border: 1px solid var(--main-color);
+    box-shadow: 0 0 10px var(--main-color);
+    border-radius: 5px;
+}
 /*---------------------------Join and create server modal fixes---------------------------*/
 .action.join {
   border: 1px solid var(--main-color);
