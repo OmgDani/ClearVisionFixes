@@ -382,10 +382,10 @@ input:focus {
   background: transparent;
 }
 
-.unread-mentions-indicator-bottom.container-2SvV0F.center-1MLNrE.flex-3B1Tl4.justifyCenter-29N31w.alignCenter-3VxkQP.mention-RlZ5F3{
+.unread-mentions-indicator-bottom.container-2SvV0F.center-1MLNrE.flex-3B1Tl4.justifyCenter-29N31w.alignCenter-3VxkQP.mention-RlZ5F3, .unreadTop-25fmEL.unread-3nyKcq.container-2SvV0F.center-1MLNrE.flex-3B1Tl4.justifyCenter-29N31w.alignCenter-3VxkQP.mention-RlZ5F3, .unread-mentions-indicator-top.container-2SvV0F.center-1MLNrE.flex-3B1Tl4.justifyCenter-29N31w.alignCenter-3VxkQP.mention-RlZ5F3 {
   background-color: var(--main-color);
 }
 
-.container-3NvGrL.popout-open{
-    z-index: 10000;
+.container-3NvGrL.popout-open {
+  z-index: 10000;
 }
