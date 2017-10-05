@@ -389,3 +389,7 @@ input:focus {
 .container-3NvGrL.popout-open {
   z-index: 10000;
 }
+
+.bar-Y-RLyN.center-1MLNrE.flex-3B1Tl4.justifyCenter-29N31w.alignCenter-3VxkQP.unreadBar-3lDSDn.unread-2TDDFN.active-2wuntj {
+    background-color: var(--main-color);
+}
