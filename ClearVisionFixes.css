@@ -1,4 +1,4 @@
-/*---------------------------User popout fixes---------------------------*/
+ /*---------------------------User popout fixes---------------------------*/
 
 .userPopout-4pfA0d .body-3rkFrF .bodyTitleText-hSiL7d {
   color: #A7A7A7
@@ -315,6 +315,7 @@ input:focus {
 .private .channel-group-dm+.header-toolbar>.private-channel-call-btns-wrapper>button:nth-child(2) span {
   background-image: url(https://cdn.rawgit.com/Zerthox/ClearVision/master/icons/call.svg) !important;
 }
+/*--------------------Text Box glow------------------------------*/
 
 .channelTextAreaEnabled-c05Zpy.channelTextArea-1HTP3C.channel-text-area-default {
   box-shadow: 0 0 10px var(--main-color);
@@ -381,7 +382,7 @@ input:focus {
 .create-guild-container.deprecated .action {
   background: transparent;
 }
-
+/*---------------------------------------------------Unread mentions and messages-------------------------------------------------------------*/
 .unread-mentions-indicator-bottom.container-2SvV0F.center-1MLNrE.flex-3B1Tl4.justifyCenter-29N31w.alignCenter-3VxkQP.mention-RlZ5F3, .unreadTop-25fmEL.unread-3nyKcq.container-2SvV0F.center-1MLNrE.flex-3B1Tl4.justifyCenter-29N31w.alignCenter-3VxkQP.mention-RlZ5F3, .unread-mentions-indicator-top.container-2SvV0F.center-1MLNrE.flex-3B1Tl4.justifyCenter-29N31w.alignCenter-3VxkQP.mention-RlZ5F3 {
   background-color: var(--main-color);
 }
@@ -391,5 +392,9 @@ input:focus {
 }
 
 .bar-Y-RLyN.center-1MLNrE.flex-3B1Tl4.justifyCenter-29N31w.alignCenter-3VxkQP.unreadBar-3lDSDn.unread-2TDDFN.active-2wuntj {
+    background-color: var(--main-color);
+}
+
+.bar-Y-RLyN.center-1MLNrE.flex-3B1Tl4.justifyCenter-29N31w.alignCenter-3VxkQP.unread-mentions-bar.mention-RlZ5F3.active-2wuntj {
     background-color: var(--main-color);
 }
