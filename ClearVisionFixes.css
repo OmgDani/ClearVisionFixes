@@ -390,8 +390,9 @@
    button.iconButtonDefault-3QZh-A.iconButton-3mKjyp.toggle-button.medium-C4dspv:nth-child(2) {
      background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0Ij4KICA8ZyBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPgogICAgPHBvbHlnb24gcG9pbnRzPSIwIDAgMjQgMCAyNCAyNCAwIDI0Ii8+CiAgICA8cGF0aCBmaWxsPSIjRkZGRkZGIiBmaWxsLXJ1bGU9Im5vbnplcm8iIGQ9Ik0xNywxMC41IEwxNyw3IEMxNyw2LjQ1IDE2LjU1LDYgMTYsNiBMNCw2IEMzLjQ1LDYgMyw2LjQ1IDMsNyBMMywxNyBDMywxNy41NSAzLjQ1LDE4IDQsMTggTDE2LDE4IEMxNi41NSwxOCAxNywxNy41NSAxNywxNyBMMTcsMTMuNSBMMjEsMTcuNSBMMjEsNi41IEwxNywxMC41IFoiLz4KICAgIDxyZWN0IHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIvPgogIDwvZz4KPC9zdmc+Cg==") !important;
    }
+   /*screenshare*/
 
-   screenshare button.iconButtonDefault-3QZh-A.iconButton-3mKjyp.toggle-button.medium-C4dspv:nth-child(1) {
+   button.iconButtonDefault-3QZh-A.iconButton-3mKjyp.toggle-button.medium-C4dspv:nth-child(1) {
      background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0Ij4KICA8ZyBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPgogICAgPHBvbHlnb24gcG9pbnRzPSIwIDAgMjQgMCAyNCAyNCAwIDI0Ii8+CiAgICA8cGF0aCBmaWxsPSIjRkZGRkZGIiBkPSJNMjAsMTcgQzIxLjEsMTcgMjEuOTksMTYuMSAyMS45OSwxNSBMMjIsNSBDMjIsMy44OSAyMS4xLDMgMjAsMyBMNCwzIEMyLjg5LDMgMiwzLjg5IDIsNSBMMiwxNSBDMiwxNi4xIDIuODksMTcgNCwxNyBMMTEsMTcgTDExLDE5IEw5LDE5IEw5LDIxIEwxNSwyMSBMMTUsMTkgTDEzLDE5IEwxMywxNyBMMjAsMTcgWiBNMTMsMTMuNDcgTDEzLDExLjI4IEMxMC4yMiwxMS4yOCA4LjM5LDEyLjEzIDcsMTQgQzcuNTYsMTEuMzMgOS4xMSw4LjY3IDEzLDguMTMgTDEzLDYgTDE3LDkuNzMgTDEzLDEzLjQ3IFoiLz4KICA8L2c+Cjwvc3ZnPgo=") !important;
    }
    /*----------------------------------------------------------------------------------------------------*/
