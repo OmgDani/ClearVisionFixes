@@ -408,3 +408,9 @@
    .Select-option {
      background-color: rgba(0, 0, 0, 0.7) !important;
    }
+
+   #app-mount {
+     position: fixed;
+     width: 100vw;
+     height: 100vh;
+   }
