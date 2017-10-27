@@ -446,3 +446,7 @@
    .wrapper-2ldvyE {
      background-color: transparent;
    }
+
+   [class*=appMount-] {
+       background: transparent !important;
+   }
