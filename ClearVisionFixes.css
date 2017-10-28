@@ -448,5 +448,9 @@
    }
 
    [class*=appMount-] {
-       background: transparent !important;
+     background: transparent !important;
+   }
+
+   .container-iksrDt {
+     background-color: transparent;
    }
