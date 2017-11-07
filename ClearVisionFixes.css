@@ -527,3 +527,40 @@
        -webkit-animation: none;
        animation: none;
      }
+     /* Disappear */
+
+     DIV.guilds-wrapper .scroller-wrap, DIV.content .flex-spacer.flex-vertical, .theme-light DIV[class*="scroller"].channel-members {
+       background-color: transparent !Important;
+     }
+     /* Dark appearance */
+
+     DIV[class*="flex-"][class*="title-"], #friends DIV[class*="headerBar"] {
+       background-color: rgba(0, 0, 0, .71) !Important;
+       box-shadow: none !important;
+       /* Thanks Krekevyks */
+     }
+
+     DIV[class*="channels"][class*="vertical"], DIV[class*="scroller"].channel-members {
+       background-color: rgba(0, 0, 0, .35) !Important;
+     }
+
+     DIV.flex-spacer.flex-horizontal, #friends DIV.friends-table {
+       background-color: rgba(0, 0, 0, .62) !Important;
+     }
+     /* Light appearance */
+
+     .theme-light DIV.layers {
+       background-color: rgba(0, 0, 0, .30) !Important;
+     }
+
+     .theme-light DIV[class*="flex-"][class*="title-"], .theme-light #friends DIV[class*="headerBar"] {
+       background-color: rgba(0, 0, 0, .58) !Important;
+     }
+
+     .theme-light DIV[class*="channels"][class*="vertical"] {
+       background-color: rgba(0, 0, 0, .26) !Important;
+     }
+
+     .theme-light DIV.flex-spacer.flex-horizontal, .theme-light #friends DIV.friends-table {
+       background-color: rgba(0, 0, 0, .58) !Important;
+     }
