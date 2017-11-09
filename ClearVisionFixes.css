@@ -568,3 +568,7 @@
      .container-3lnMWU{
        background: transparent;
      }
+
+     .quick-message.isBlocked {
+         background: rgba(0,0,0,0.3);
+     }
