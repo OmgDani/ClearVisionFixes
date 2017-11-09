@@ -62,20 +62,20 @@
        overflow-y: auto
      }
 
-     .theme-dark .footer-1PYmcw {
+     [class*="theme-"] .footer-1PYmcw {
        background: transparent !important
      }
 
-     .theme-dark .input-2YozMi {
+     [class*="theme-"] .input-2YozMi {
        border-color: var(--main-color);
        border-width: 2px;
      }
 
-     .theme-dark .footer-1PYmcw {
+     [class*="theme-"] .footer-1PYmcw {
        background: transparent !important
      }
 
-     .theme-dark .input-2YozMi {
+     [class*="theme-"] .input-2YozMi {
        border-color: var(--main-color);
        border-width: 2px;
      }
@@ -125,11 +125,11 @@
      }
      /* Dani */
 
-     .theme-dark .messages-wrapper .messages .message-group-blocked .message-group-blocked-btn {
+     [class*="theme-"] .messages-wrapper .messages .message-group-blocked .message-group-blocked-btn {
        display: none
      }
 
-     .theme-dark [class*="channelTextAreaEnabled"] [class*="inner"] {
+     [class*="theme-"] [class*="channelTextAreaEnabled"] [class*="inner"] {
        background: rgba(0, 0, 0, .6);
      }
      /* w/ &#2039; */
@@ -435,11 +435,11 @@
        background-color: rgba(0, 0, 0, 0.6)!important;
      }
 
-     .theme-dark .title-qAcLxz {
+     [class*="theme-"] .title-qAcLxz {
        background-color: rgba(0, 0, 0, 0.75);
      }
 
-     .theme-dark .chat form {
+     [class*="theme-"] .chat form {
        background-color: transparent;
      }
 
