@@ -564,11 +564,16 @@
      .theme-light DIV.flex-spacer.flex-horizontal, .theme-light #friends DIV.friends-table {
        background-color: rgba(0, 0, 0, .58) !Important;
      }
+     /*-------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 
-     .container-3lnMWU{
+     .container-3lnMWU {
        background: transparent;
      }
 
      .quick-message.isBlocked {
-         background: rgba(0,0,0,0.3);
+       background: rgba(0, 0, 0, 0.3);
+     }
+
+     [class*="theme-"] .iconBadge-1FYlQB {
+       border-color: transparent;
      }
