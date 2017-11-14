@@ -125,10 +125,6 @@
      }
      /* Dani */
 
-     [class*="theme-"] .messages-wrapper .messages .message-group-blocked .message-group-blocked-btn {
-       display: none
-     }
-
      [class*="theme-"] [class*="channelTextAreaEnabled"] [class*="inner"] {
        background: rgba(0, 0, 0, .6);
      }
