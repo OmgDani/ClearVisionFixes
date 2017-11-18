@@ -573,3 +573,7 @@
      [class*="theme-"] .iconBadge-1FYlQB {
        border-color: transparent;
      }
+
+     [class*="theme-"] [class*="noChannel-"] {
+       background: transparent !important;
+     }
