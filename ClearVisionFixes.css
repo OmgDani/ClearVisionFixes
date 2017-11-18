@@ -579,15 +579,15 @@
      }
 
      #permissions-modal-wrapper .header, #permissions-modal-wrapper .role-side {
-       background: rgba(0, 0, 0, 0.7);
+       background: rgba(0, 0, 0, 0.7) !important;
      }
 
      #permissions-modal-wrapper .modal-body {
-       background: transparent;
+       background: transparent !important;
      }
 
      #permissions-modal-wrapper .perm-side {
-       background: rgba(0, 0, 0, 0.6);
+       background: rgba(0, 0, 0, 0.6) !important;
      }
 
      #permissions-modal-wrapper .role-item.selected {
