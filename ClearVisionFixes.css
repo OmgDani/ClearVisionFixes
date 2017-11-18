@@ -577,3 +577,19 @@
      [class*="theme-"] [class*="noChannel-"] {
        background: transparent !important;
      }
+
+     #permissions-modal-wrapper .header, #permissions-modal-wrapper .role-side {
+       background: rgba(0, 0, 0, 0.7);
+     }
+
+     #permissions-modal-wrapper .modal-body {
+       background: transparent;
+     }
+
+     #permissions-modal-wrapper .perm-side {
+       background: rgba(0, 0, 0, 0.6);
+     }
+
+     #permissions-modal-wrapper .role-item.selected {
+       color: var(--main-color) !important;
+     }
