@@ -96,11 +96,22 @@
      .userPopout-4pfA0d .body-3rkFrF .roles .member-roles:hover::-webkit-scrollbar-thumb, .userPopout-4pfA0d .body-3rkFrF .roles .member-roles:hover::-webkit-scrollbar-track-piece, .userPopout-4pfA0d .body-3rkFrF .roles .member-roles:hover::-webkit-scrollbar-thumb, .userPopout-4pfA0d .body-3rkFrF .roles .member-roles:hover::-webkit-scrollbar-track-piece {
        visibility: visible
      }
+     .activity-AFBUEw {
+       background-color: rgba(0, 0, 0, .65);
+     }
+     .headerPlaying-2eYqm9 {
+       background: transparent !important;
+     }
+/*---------------------------------------------------------------------------------------------------------------------------------------*/
      /* The following changes are by members of the ClearVision channel on Discord.
    These are community contributions while Zerthox takes a break and deals with life. */
+
      /* tehbasshunter */
+
      /**/
+
      /* Modified by w/ &#2039; */
+
      /**/
 
      [class*="autocomplete-"] [class*="selectorSelected-"] {
@@ -123,11 +134,13 @@
        -moz-background-size: contain !important;
        background-size: contain !important;
      }
+
      /* Dani */
 
      [class*="theme-"] [class*="channelTextAreaEnabled"] [class*="inner"] {
        background: rgba(0, 0, 0, .6);
      }
+
      /* w/ &#2039; */
 
      .instant-invite-modal DIV[class*="form"] {
@@ -177,23 +190,16 @@
      [class*="titleChecked"] {
        color: var(--main-color) !important;
      }
-     /**/
+
      /* Some assistance by DevilsLynAvenged */
-     /**/
 
      .content-column [class*="checkbox"] {
-       /**/
        background-color: rgba(0, 0, 0, .32) !important;
-       /**/
        border-width: 2px !Important;
-       /**/
        border-color: var(--main-color) !Important;
      }
-     /**/
-     /**/
 
      .content-column [class*="checkbox"] [class*="focused"] {
-       /**/
        box-shadow: none !important;
      }
 
@@ -287,6 +293,7 @@
      .private .channel-group-dm+.header-toolbar>.private-channel-call-btns-wrapper>button:nth-child(2) span {
        background-image: url(https://cdn.rawgit.com/Zerthox/ClearVision/master/icons/call.svg) !important;
      }
+
      /*--------------------Text Box glow------------------------------*/
 
      .channelTextAreaEnabled-c05Zpy.channelTextArea-1HTP3C.channel-text-area-default {
@@ -304,6 +311,7 @@
        box-shadow: 0 0 10px var(--main-color);
        border-radius: 5px;
      }
+
      /*---------------------------Join and create server modal fixes---------------------------*/
 
      .action.join {
@@ -352,6 +360,7 @@
      .create-guild-container.deprecated .action {
        background: transparent;
      }
+
      /*---------------------------------------------------Unread mentions and messages-------------------------------------------------------------*/
 
      .unread-mentions-indicator-bottom.container-2SvV0F.center-1MLNrE.flex-3B1Tl4.justifyCenter-29N31w.alignCenter-3VxkQP.mention-RlZ5F3, .unreadTop-25fmEL.unread-3nyKcq.container-2SvV0F.center-1MLNrE.flex-3B1Tl4.justifyCenter-29N31w.alignCenter-3VxkQP.mention-RlZ5F3, .unread-mentions-indicator-top.container-2SvV0F.center-1MLNrE.flex-3B1Tl4.justifyCenter-29N31w.alignCenter-3VxkQP.mention-RlZ5F3 {
@@ -377,22 +386,27 @@
      button.iconButtonStatic-BQvIo6.iconButton-3mKjyp.toggle-button.medium-C4dspv:nth-child(4) {
        background-image: url(https://cdn.rawgit.com/Zerthox/ClearVision/master/icons/mic_off.svg) !important;
      }
+
      /*video cam*/
+
      /*on*/
 
      button.iconButtonStatic-BQvIo6.iconButton-3mKjyp.toggle-button.medium-C4dspv:nth-child(2) {
        background-image: url(https://cdn.rawgit.com/OmgDani/ClearVisionFixes/bef739fb/Icons/videocam%20off.svg) !important;
      }
+
      /*off*/
 
      button.iconButtonDefault-3QZh-A.iconButton-3mKjyp.toggle-button.medium-C4dspv:nth-child(2) {
        background-image: url(https://cdn.rawgit.com/Zerthox/ClearVision/d34dc45b/icons/videocam.svg) !important;
      }
+
      /*screenshare*/
 
      button.iconButtonDefault-3QZh-A.iconButton-3mKjyp.toggle-button.medium-C4dspv:nth-child(1) {
        background-image: url(https://cdn.rawgit.com/OmgDani/ClearVisionFixes/bef739fb/Icons/screen%20share.svg) !important;
      }
+
      /*----------------------------------------------------------------------------------------------------*/
 
      .ui-call-avatar-border.video.selected.speaking, .ui-call-avatar-border.video.speaking {
@@ -467,6 +481,7 @@
      .flex-lFgbSz.flex-3B1Tl4.horizontal-2BEEBe.horizontal-2VE-Fw.flex-3B1Tl4.directionRow-yNbSvJ.justifyStart-2yIZo0.alignCenter-3VxkQP.noWrap-v6g9vO.headerBar-cxbhPD {
        background-color: rgba(0, 0, 0, 0.6);
      }
+
      /* thanks to Hebgbs*/
 
      #friends [class*="headerBar-"] .tab-bar .tab-bar-item:hover:not(.selected) {
@@ -523,11 +538,13 @@
        -webkit-animation: none;
        animation: none;
      }
+
      /* Disappear */
 
      DIV.guilds-wrapper .scroller-wrap, DIV.content .flex-spacer.flex-vertical, .theme-light DIV[class*="scroller"].channel-members {
        background-color: transparent !Important;
      }
+
      /* Dark appearance */
 
      DIV[class*="flex-"][class*="title-"], #friends DIV[class*="headerBar"] {
@@ -543,6 +560,7 @@
      DIV.flex-spacer.flex-horizontal, #friends DIV.friends-table {
        background-color: rgba(0, 0, 0, .62) !Important;
      }
+
      /* Light appearance */
 
      .theme-light DIV.layers {
@@ -560,6 +578,7 @@
      .theme-light DIV.flex-spacer.flex-horizontal, .theme-light #friends DIV.friends-table {
        background-color: rgba(0, 0, 0, .58) !Important;
      }
+
      /*-------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 
      .container-3lnMWU {
