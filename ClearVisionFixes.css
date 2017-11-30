@@ -96,13 +96,17 @@
      .userPopout-4pfA0d .body-3rkFrF .roles .member-roles:hover::-webkit-scrollbar-thumb, .userPopout-4pfA0d .body-3rkFrF .roles .member-roles:hover::-webkit-scrollbar-track-piece, .userPopout-4pfA0d .body-3rkFrF .roles .member-roles:hover::-webkit-scrollbar-thumb, .userPopout-4pfA0d .body-3rkFrF .roles .member-roles:hover::-webkit-scrollbar-track-piece {
        visibility: visible
      }
+
      .activity-AFBUEw {
        background-color: rgba(0, 0, 0, .65);
      }
+
      .headerPlaying-2eYqm9 {
        background: transparent !important;
      }
-/*---------------------------------------------------------------------------------------------------------------------------------------*/
+
+     /*---------------------------------------------------------------------------------------------------------------------------------------*/
+
      /* The following changes are by members of the ClearVision channel on Discord.
    These are community contributions while Zerthox takes a break and deals with life. */
 
@@ -611,4 +615,23 @@
 
      #permissions-modal-wrapper .role-item.selected {
        color: var(--main-color) !important;
+     }
+
+     [class*="root-"]::before {
+       content: "";
+       position: absolute;
+       top: 0px;
+       right: 0px;
+       bottom: 0px;
+       left: 0px;
+       z-index: -1;
+       background-position: center;
+       -webkit-filter: blur(3px);
+       filter: blur(3px);
+       overflow: hidden
+     }
+
+     [class*="topSectionNormal-"],
+     [class*="theme-"] .body-3_tdh6 {
+       background: rgba(0,0,0,0.65);
      }
