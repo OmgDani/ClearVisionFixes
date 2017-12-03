@@ -640,7 +640,7 @@
          background: rgba(0,0,0,0.65);
      }
 
-     .buttonBrandInvertedDefault-uUmgsD:hover {
+     .buttonBrandInvertedDefault-uUmgsD:hover, .buttonBrandInvertedDefault-uUmgsD {
          background-color: var(--main-color);
      }
      .contentsDefault-nt2Ym5.contents-4L4hQM.contentsInverted-1g2WiO.contents-4L4hQM{
