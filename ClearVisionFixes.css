@@ -631,18 +631,23 @@
        overflow: hidden
      }
 
-     [class*="topSectionNormal-"],
-     [class*="theme-"] .body-3_tdh6 {
-       background: rgba(0,0,0,0.65);
+     [class*="topSectionNormal-"], [class*="theme-"] .body-3_tdh6 {
+       background: rgba(0, 0, 0, 0.65);
      }
 
      .topSectionPlaying-3jAH9b {
-         background: rgba(0,0,0,0.65);
+       background: rgba(0, 0, 0, 0.65);
      }
 
      .buttonBrandInvertedDefault-uUmgsD:hover, .buttonBrandInvertedDefault-uUmgsD {
-         background-color: var(--main-color);
+       background-color: var(--main-color);
      }
-     .contentsDefault-nt2Ym5.contents-4L4hQM.contentsInverted-1g2WiO.contents-4L4hQM{
+
+     .contentsDefault-nt2Ym5.contents-4L4hQM.contentsInverted-1g2WiO.contents-4L4hQM {
        color: #fff !important;
+     }
+
+     .root-uMQa_6::before {
+       content: "";
+       background-image: inherit!important;
      }
