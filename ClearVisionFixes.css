@@ -647,7 +647,7 @@
        color: #fff !important;
      }
 
-     .root-uMQa_6::before {
+     .root-uMQa_6.flex-3B1Tl4::before {
        content: "";
-       background-image: inherit!important;
+       background-image: none !important;
      }
