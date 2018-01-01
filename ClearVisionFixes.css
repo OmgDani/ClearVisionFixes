@@ -653,5 +653,17 @@
      }
 
      .message-group .comment .markup pre {
-         white-space: pre-wrap;
+       white-space: pre-wrap;
+     }
+
+     .pill-1nbD-Z:hover {
+       background-color: var(--hover-color);
+     }
+
+     .pill-1nbD-Z {
+       background-color: var(--main-color);
+     }
+
+     button.buttonGreyFilledDefault-3uZpOq.buttonFilledDefault-AELjWf.buttonDefault-2OLW-v.button-2t3of8.buttonFilled-29g7b5.buttonGreyFilled-3qPP_J.smallGrow-2_7ZaC.button-OImEXc.flexChild-1KGW5q {
+       background: var(--main-color);
      }
