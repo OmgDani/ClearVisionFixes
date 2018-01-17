@@ -758,3 +758,15 @@
      .item-rK1j5B.leave-2bjeRM {
        color: #f04747 !important;
      }
+
+     .emojiPicker-3g68GS {
+       background: rgba(0, 0, 0, 0.6);
+     }
+
+     .stickyHeader-3LjM5X {
+       background: transparent !important;
+     }
+
+     .emojiItem-3l4Fa9.selected-1LQfcZ {
+       background-color: rgba(0, 0, 0, 0.3) !important;
+     }
