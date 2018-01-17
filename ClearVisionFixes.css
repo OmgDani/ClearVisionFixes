@@ -672,7 +672,7 @@
        background: transparent !important;
      }
 
-     .theme-dark .typing-3eiiL_ {
+     [class*="theme-"] .typing-3eiiL_ {
        background-color: transparent;
      }
 
@@ -681,7 +681,7 @@
      }
 
      .contextMenu-uoJTbz {
-       background: rgba(0, 0, 0, 0.6) !important;
+       background: rgba(0, 0, 0, 0.8) !important;
      }
 
      .itemSubMenu-3ZgIw- {
@@ -691,7 +691,9 @@
      .video-3lOWa6 {
        background-color: transparent;
      }
-/* Upload modal*/
+
+     /* Upload modal*/
+
      .uploadModal-2KN6Mm {
        background-color: rgba(0, 0, 0, 0.8);
      }
@@ -725,4 +727,13 @@
      .uploadModal-2KN6Mm .footer-4pOKm8 .button:hover {
        text-decoration: underline !important;
      }
-/*---------------------------------------------------------------------------------------*/
+
+     /*---------------------------------------------------------------------------------------*/
+
+     .theme-dark .item-1XYaYf:hover {
+       background: rgba(0, 0, 0, 0.8) !important;
+     }
+
+     .menu-3BZuDT {
+         background: rgba(0,0,0,0.8);
+     }
