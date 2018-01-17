@@ -735,5 +735,18 @@
      }
 
      .menu-3BZuDT {
-         background: rgba(0,0,0,0.8);
+       background: rgba(0, 0, 0, 0.8);
+     }
+
+     .item-rK1j5B:hover {
+       background: rgba(0, 0, 0, 0.8);
+       color: white;
+     }
+
+     .lfg-3xoFkI {
+       background: transparent !important;
+     }
+
+     .separator-1hpa3S {
+       display: none;
      }
