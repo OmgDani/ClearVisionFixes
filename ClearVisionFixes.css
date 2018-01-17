@@ -671,3 +671,11 @@
      .layer-kosS71, .layers-20RVFW {
        background: transparent !important;
      }
+
+     .theme-dark .typing-3eiiL_ {
+       background-color: transparent;
+     }
+
+     [class*=appMount-] {
+       background: rgba(0, 0, 0, 0.6) !important;
+     }
