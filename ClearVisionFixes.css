@@ -750,3 +750,7 @@
      .separator-1hpa3S {
        display: none;
      }
+
+     div.contextMenu-uoJTbz>div:nth-child(2)>div:nth-child(3) {
+       background-color: #f04747 !important;
+     }
