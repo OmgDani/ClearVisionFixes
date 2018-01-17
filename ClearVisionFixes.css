@@ -691,3 +691,38 @@
      .video-3lOWa6 {
        background-color: transparent;
      }
+/* Upload modal*/
+     .uploadModal-2KN6Mm {
+       background-color: rgba(0, 0, 0, 0.8);
+     }
+
+     .uploadModal-2KN6Mm .footer-4pOKm8 {
+       background-color: rgba(0, 0, 0, 0.6);
+     }
+
+     .inner-1-09ZV {
+       border: transparent !important;
+     }
+
+     .icon-19bbE_.image-sUU6Oh {
+       border: none !important;
+     }
+
+     div.footer-4pOKm8>button:nth-child(1) {
+       right: 15px !important;
+       background-color: #f04747 !important;
+     }
+
+     div.footer-4pOKm8>button:nth-child(1):hover {
+       opacity: 0.8;
+     }
+
+     .uploadModal-2KN6Mm .footer-4pOKm8 .button {
+       background-color: var(--main-color);
+       color: white;
+     }
+
+     .uploadModal-2KN6Mm .footer-4pOKm8 .button:hover {
+       text-decoration: underline !important;
+     }
+/*---------------------------------------------------------------------------------------*/
