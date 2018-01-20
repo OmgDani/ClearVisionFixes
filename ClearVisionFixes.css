@@ -794,6 +794,7 @@
 
      .wrapper-VSYYTS .instantInviteModal-5L33Qh .copy-2xFKb_ {
        background-color: var(--main-color);
+       border-left: none;
      }
 
      .wrapper-VSYYTS .instantInviteModal-5L33Qh .copy-2xFKb_:hover {
@@ -854,4 +855,8 @@
      .form-deprecated .btn-primary:hover, .form.deprecated .btn-primary:hover {
        opacity: 0.8;
        background: var(--main-color);
+     }
+
+     .form-deprecated .is-focused:not(.is-open)>.Select-control, .form.deprecated .is-focused:not(.is-open)>.Select-control, .form-deprecated .Select.is-disabled .Select-control:hover, .form-deprecated .Select.is-open .Select-control:hover, .form.deprecated .Select.is-disabled .Select-control:hover, .form.deprecated .Select.is-open .Select-control:hover {
+       border-color: var(--main-color);
      }
