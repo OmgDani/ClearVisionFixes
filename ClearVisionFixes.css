@@ -771,6 +771,87 @@
        background-color: rgba(0, 0, 0, 0.5) !important;
      }
 
-     .emojiPicker-3g68GS .categories-jw8z2h .item-lsWB-j.selected-1LQfcZ{
+     .emojiPicker-3g68GS .categories-jw8z2h .item-lsWB-j.selected-1LQfcZ {
        border-bottom-color: var(--main-color) !important;
+     }
+
+     .embedVideoPlay-1r-B3h {
+       background-image: url(https://gitcdn.link/repo/Zerthox/ClearVision/master/icons/play.svg);
+     }
+
+     .wrapper-VSYYTS .instantInviteModal-5L33Qh .form-header, .wrapper-VSYYTS .instantInviteModal-5L33Qh .form-inner, .wrapper-VSYYTS .instantInviteModal-5L33Qh .form-actions {
+       background: transparent;
+     }
+
+     .wrapper-VSYYTS {
+       background: rgba(0, 0, 0, 0.8);
+     }
+
+     .wrapper-VSYYTS .instantInviteModal-5L33Qh .clipboardInputInner-dxVheg input {
+       background: transparent;
+       color: var(--main-color);
+     }
+
+     .wrapper-VSYYTS .instantInviteModal-5L33Qh .copy-2xFKb_ {
+       background-color: var(--main-color);
+     }
+
+     .wrapper-VSYYTS .instantInviteModal-5L33Qh .copy-2xFKb_:hover {
+       opacity: 0.8;
+     }
+
+     .clipboardInputInner-oj8y-S {
+       background: transparent;
+       border: 1px solid var(--main-color);
+     }
+
+     .wrapper-VSYYTS .instantInviteModal-5L33Qh .clipboardInputInner-dxVheg input {
+       background: transparent;
+       border-left: none;
+     }
+
+     .clipboardInputInner-oj8y-S button:first-of-type:before {
+       content: "";
+       background: none;
+     }
+
+     .form-deprecated .form-inner, .form.deprecated .form-inner, .wrapper-VSYYTS .instantInviteModalAdvanced-38f2M0 .form-actions {
+       background: transparent;
+     }
+
+     .form-deprecated .Select-control, .form.deprecated .Select-control {
+       border-color: var(--main-color);
+     }
+
+     .form-deprecated .Select-control:hover, .form.deprecated .Select-control:hover {
+       border-color: var(--main-color);
+     }
+
+     .has-value.is-pseudo-focused.Select--single>.Select-control .Select-value .Select-value-label, .has-value.Select--single>.Select-control .Select-value .Select-value-label, .form-deprecated .Select-option, .form.deprecated .Select-option {
+       color: white;
+     }
+
+     .form-deprecated .Select-option.is-focused, .form.deprecated .Select-option.is-focused {
+       color: var(--main-color);
+     }
+
+     .wrapper-VSYYTS .instantInviteModalAdvanced-38f2M0 .form-actions .btn-default {
+       border-bottom: none;
+       color: white;
+       background-color: #f04747;
+       padding: 10px 20px;
+       border-radius: 3px;
+     }
+
+     .wrapper-VSYYTS .instantInviteModalAdvanced-38f2M0 .form-actions .btn-default:hover {
+       opacity: 0.8;
+     }
+
+     .form-deprecated .btn-primary, .form.deprecated .btn-primary {
+       background: var(--main-color);
+     }
+
+     .form-deprecated .btn-primary:hover, .form.deprecated .btn-primary:hover {
+       opacity: 0.8;
+       background: var(--main-color);
      }
