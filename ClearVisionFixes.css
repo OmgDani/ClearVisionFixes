@@ -861,6 +861,14 @@
        border-color: var(--main-color);
      }
 
-     .mention-RlZ5F3 {
+     .mention-RlZ5F3, .unread-2TDDFN {
        background-color: var(--main-color);
+     }
+
+     .headerSpotify-1fSJPO {
+       background: transparent;
+     }
+
+     .topSectionSpotify-3744IX {
+       background: rgba(0, 0, 0, 0.6);
      }
