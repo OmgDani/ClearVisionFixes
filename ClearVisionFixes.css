@@ -872,3 +872,11 @@
      .topSectionSpotify-3744IX {
        background: rgba(0, 0, 0, 0.6);
      }
+
+     [class*="theme-"] .attachPopout-gjwHsr {
+         background-color: rgba(0,0,0,0.8);
+     }
+
+     [class*="theme-"] .listeningAlong-13-Udx {
+         background-color: transparent;
+     }
