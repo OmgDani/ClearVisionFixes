@@ -139,8 +139,6 @@
        background-size: contain !important;
      }
 
-     /* Dani */
-
      [class*="theme-"] [class*="channelTextAreaEnabled"] [class*="inner"] {
        background: rgba(0, 0, 0, .6);
      }
