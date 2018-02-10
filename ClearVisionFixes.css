@@ -639,7 +639,11 @@
        background: rgba(0, 0, 0, 0.65);
      }
 
-     .buttonBrandInvertedDefault-uUmgsD:hover, .buttonBrandInvertedDefault-uUmgsD {
+     .buttonBrandInvertedDefault-uUmgsD:hover {
+       opacity: 0.8;
+     }
+
+     .buttonBrandInvertedDefault-uUmgsD {
        background-color: var(--main-color);
      }
 
@@ -874,9 +878,17 @@
      }
 
      [class*="theme-"] .attachPopout-gjwHsr {
-         background-color: rgba(0,0,0,0.8);
+       background-color: rgba(0, 0, 0, 0.8);
      }
 
      [class*="theme-"] .listeningAlong-13-Udx {
-         background-color: transparent;
+       background-color: transparent;
+     }
+
+     .buttonGreenInverted-3wLrIA {
+       background-color: var(--main-color);
+     }
+
+     .buttonGreenInvertedDefault-3m-pe-:hover {
+       opacity: 0.8
      }
