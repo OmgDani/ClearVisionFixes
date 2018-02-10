@@ -734,7 +734,7 @@
 
      /*---------------------------------------------------------------------------------------*/
 
-     .theme-dark .item-1XYaYf:hover {
+     [class*="theme-"] .item-1XYaYf:hover {
        background: rgba(0, 0, 0, 0.8) !important;
      }
 
