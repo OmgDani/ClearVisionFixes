@@ -612,7 +612,8 @@
      }
 
      #permissions-modal-wrapper .role-item.selected {
-       color: var(--main-color) !important;
+       background-color: var(--main-color);
+       color: white;
      }
 
      [class*="root-"]::before {
