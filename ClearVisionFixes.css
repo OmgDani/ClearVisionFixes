@@ -891,3 +891,7 @@
      .buttonGreenInvertedDefault-3m-pe-:hover {
        opacity: 0.8
      }
+
+     .buttonBrandInvertedDefault-uUmgsD:hover {
+         background-color: var(--main-color);
+     }
