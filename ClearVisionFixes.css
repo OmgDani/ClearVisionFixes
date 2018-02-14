@@ -895,3 +895,7 @@
      .buttonBrandInvertedDefault-uUmgsD:hover {
          background-color: var(--main-color);
      }
+
+     button.iconButtonDefault-3QZh-A.iconButton-3mKjyp.action-button.medium-C4dspv:first-child {
+       background-image: url(https://cdn.rawgit.com/Zerthox/ClearVision/8c773772/icons/fullscreen.svg) !important;
+     }
