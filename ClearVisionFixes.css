@@ -1,14 +1,14 @@
      /*---------------------------User popout fixes---------------------------*/
 
-     .userPopout-4pfA0d .body-3rkFrF .bodyTitleText-hSiL7d {
+     [class*="userPopout-"] .body-3rkFrF .bodyTitleText-hSiL7d {
        color: #A7A7A7
      }
 
-     .userPopout-4pfA0d .footer-2J5zqP .tip {
+     [class*="userPopout-"] .footer-2J5zqP .tip {
        color: #A0A0A0
      }
 
-     .userPopout-4pfA0d .headerNormal-1cioxU {
+     [class*="userPopout-"] [class*="headerNormal-"] {
        background: transparent!important
      }
 
@@ -20,7 +20,7 @@
        border-color: transparent;
      }
 
-     .userPopout-4pfA0d::before {
+     [class*="userPopout-"]::before {
        content: "";
        position: absolute;
        top: 0px;
@@ -34,18 +34,18 @@
        overflow: hidden
      }
 
-     .userPopout-4pfA0d .body-3rkFrF {
+     [class*="userPopout-"] .body-3rkFrF {
        background: rgba(0, 0, 0, .65);
        padding-bottom: 10px;
        border-bottom: 0px
      }
 
-     .userPopout-4pfA0d .footer-2J5zqP {
+     [class*="userPopout-"] .footer-2J5zqP {
        background: rgba(0, 0, 0, .65);
        border-top: 2px var(--main-color) solid
      }
 
-     .userPopout-4pfA0d .footer-2J5zqP .quick-message .quickMessage-28pD5Y {
+     [class*="userPopout-"] .footer-2J5zqP .quick-message .quickMessage-28pD5Y {
        border-color: transparent;
        background: rgba(0, 0, 0, .5);
        color: #fff
@@ -57,7 +57,7 @@
        color: #AEAEAE
      }
 
-     .userPopout-4pfA0d .body-3rkFrF .roles .member-roles {
+     [class*="userPopout-"] .body-3rkFrF .roles .member-roles {
        max-height: 230px;
        overflow-y: auto
      }
@@ -80,20 +80,20 @@
        border-width: 2px;
      }
 
-     .userPopout-4pfA0d .body-3rkFrF .roles .member-roles::-webkit-scrollbar {
+     [class*="userPopout-"] .body-3rkFrF .roles .member-roles::-webkit-scrollbar {
        width: 14px
      }
 
-     .userPopout-4pfA0d .body-3rkFrF .roles .member-roles::-webkit-scrollbar-thumb {
+     [class*="userPopout-"] .body-3rkFrF .roles .member-roles::-webkit-scrollbar-thumb {
        background-clip: padding-box;
        border: 3px solid transparent
      }
 
-     .userPopout-4pfA0d .body-3rkFrF .roles .member-roles::-webkit-scrollbar-thumb, .userPopout-4pfA0d .body-3rkFrF .roles .member-roles::-webkit-scrollbar-track-piece, .userPopout-4pfA0d .body-3rkFrF .roles .member-roles::-webkit-scrollbar-thumb, .userPopout-4pfA0d .body-3rkFrF .roles .member-roles::-webkit-scrollbar-track-piece {
+     [class*="userPopout-"] .body-3rkFrF .roles .member-roles::-webkit-scrollbar-thumb, [class*="userPopout-"] .body-3rkFrF .roles .member-roles::-webkit-scrollbar-track-piece, [class*="userPopout-"] .body-3rkFrF .roles .member-roles::-webkit-scrollbar-thumb, [class*="userPopout-"] .body-3rkFrF .roles .member-roles::-webkit-scrollbar-track-piece {
        visibility: hidden
      }
 
-     .userPopout-4pfA0d .body-3rkFrF .roles .member-roles:hover::-webkit-scrollbar-thumb, .userPopout-4pfA0d .body-3rkFrF .roles .member-roles:hover::-webkit-scrollbar-track-piece, .userPopout-4pfA0d .body-3rkFrF .roles .member-roles:hover::-webkit-scrollbar-thumb, .userPopout-4pfA0d .body-3rkFrF .roles .member-roles:hover::-webkit-scrollbar-track-piece {
+     [class*="userPopout-"] .body-3rkFrF .roles .member-roles:hover::-webkit-scrollbar-thumb, [class*="userPopout-"] .body-3rkFrF .roles .member-roles:hover::-webkit-scrollbar-track-piece, [class*="userPopout-"] .body-3rkFrF .roles .member-roles:hover::-webkit-scrollbar-thumb, [class*="userPopout-"] .body-3rkFrF .roles .member-roles:hover::-webkit-scrollbar-track-piece {
        visibility: visible
      }
 
