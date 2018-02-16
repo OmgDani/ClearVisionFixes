@@ -34,7 +34,7 @@
        overflow: hidden;
      }
 
-     [class*="userPopout-"] [class*="body-"]:not(.bodyAlignCenter-2WUfxb) {
+     [class*="userPopout-"] [class*="body-"]:not(.bodyAlignCenter-2WUfxb):not(.bodyNormal-2QqN-G) {
        background: rgba(0, 0, 0, .65);
        padding-bottom: 10px;
        border-bottom: 0px;
@@ -95,6 +95,13 @@
 
      [class*="headerPlaying-"] {
        background: transparent !important;
+     }
+
+     [class*="activity-"] {
+       background-color: rgba(0, 0, 0, 0.65);
+     }
+     [class*="headerSpotify-"] {
+       background: transparent
      }
 
      /*---------------------------------------------------------------------------------------------------------------------------------------*/
@@ -885,7 +892,7 @@
      }
 
      .buttonBrandInvertedDefault-uUmgsD:hover {
-         background-color: var(--main-color);
+       background-color: var(--main-color);
      }
 
      button.iconButtonDefault-3QZh-A.iconButton-3mKjyp.action-button.medium-C4dspv:first-child {
