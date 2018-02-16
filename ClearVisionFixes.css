@@ -34,7 +34,7 @@
        overflow: hidden;
      }
 
-     [class*="userPopout-"] [class*="body-"]:not(.bodyAlignCenter-2WUfxb):not(.bodyNormal-2QqN-G):not(.friend-activity-text) {
+     [class*="userPopout-"] [class*="body-"]:not(.bodyAlignCenter-2WUfxb):not(.bodyNormal-2QqN-G) {
        background: rgba(0, 0, 0, .65);
        padding-bottom: 10px;
        border-bottom: 0px;
@@ -97,9 +97,10 @@
        background: transparent !important;
      }
 
-     [class*="activity-"]:not(.member-activity-text) {
+     [class*="activity-"]:not(.member-activity-text):not(.friend-activity-text) {
        background-color: rgba(0, 0, 0, 0.65);
      }
+
      [class*="headerSpotify-"] {
        background: transparent
      }
