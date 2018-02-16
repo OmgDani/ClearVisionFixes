@@ -97,7 +97,7 @@
        background: transparent !important;
      }
 
-     [class*="activity-"]:not(.member-activity-text):not(.friend-activity-text) {
+     [class*="activity-"]:not(.member-activity-text):not(.friend-activity-text):not(.channel-activity-text) {
        background-color: rgba(0, 0, 0, 0.65);
      }
 
