@@ -97,7 +97,7 @@
        background: transparent !important;
      }
 
-     [class*="activity-"] {
+     [class*="activity-"]:not(.member-activity-text) {
        background-color: rgba(0, 0, 0, 0.65);
      }
      [class*="headerSpotify-"] {
