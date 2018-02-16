@@ -889,7 +889,7 @@
      }
 
      .buttonGreenInvertedDefault-3m-pe-:hover {
-       opacity: 0.8
+       opacity: 0.8;
      }
 
      .buttonBrandInvertedDefault-uUmgsD:hover {
@@ -898,4 +898,20 @@
 
      button.iconButtonDefault-3QZh-A.iconButton-3mKjyp.action-button.medium-C4dspv:first-child {
        background-image: url(https://cdn.rawgit.com/Zerthox/ClearVision/8c773772/icons/fullscreen.svg) !important;
+     }
+
+     .lookInverted-2lPGe7.colorBrand-3PmwCE:hover, .lookFilled-luDKDo.colorGreen-22At8E:hover {
+       opacity: 0.8;
+     }
+
+     .lookInverted-2lPGe7.colorBrand-3PmwCE, .lookFilled-luDKDo.colorGreen-22At8E {
+       background-color: var(--main-color);
+     }
+
+     .lookInverted-2lPGe7.colorBrand-3PmwCE {
+       color: #fff
+     }
+
+     [class*="theme-"] .footer-1PYmcw {
+       background: transparent !important;
      }
