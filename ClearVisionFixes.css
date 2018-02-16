@@ -902,6 +902,7 @@
 
      .lookInverted-2lPGe7.colorBrand-3PmwCE:hover, .lookFilled-luDKDo.colorGreen-22At8E:hover {
        opacity: 0.8;
+       background-color: var(--main-color);
      }
 
      .lookInverted-2lPGe7.colorBrand-3PmwCE, .lookFilled-luDKDo.colorGreen-22At8E {
