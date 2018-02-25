@@ -920,3 +920,34 @@
      .headerStreaming-lmgoma {
        background: transparent;
      }
+
+     .rolesList-2RhjNd::-webkit-scrollbar-thumb, .rolesList-2RhjNd::-webkit-scrollbar-track {
+       background-clip: padding-box;
+       border-radius: 7.5px;
+       border-style: solid;
+       border-width: 3px;
+       visibility: hidden;
+     }
+
+     .rolesList-2RhjNd:hover::-webkit-scrollbar-thumb, .rolesList-2RhjNd:hover::-webkit-scrollbar-track {
+       visibility: visible;
+     }
+
+     .rolesList-2RhjNd::-webkit-scrollbar-track {
+       border-width: initial;
+       background-color: transparent;
+       border: 2px solid transparent;
+     }
+
+     .rolesList-2RhjNd::-webkit-scrollbar-thumb {
+       border: 2px solid transparent;
+       border-radius: 4px;
+       cursor: move;
+       background-color: rgba(32, 34, 37, .6);
+     }
+
+     .rolesList-2RhjNd {
+       margin-top: 12px;
+       max-height: 160px;
+       overflow-y: auto;
+     }
