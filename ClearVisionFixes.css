@@ -951,3 +951,17 @@
        max-height: 160px;
        overflow-y: auto;
      }
+
+     button.button-2t3of8.lookLink-3VWONr.colorPrimary-2KuK5O.sizeMedium-2VGNaF.grow-25YQ8u {
+       right: 15px;
+       background-color: #f04747 !important;
+     }
+
+     .lookFilled-luDKDo.colorBrand-3PmwCE:hover {
+       opacity: 0.8;
+     }
+
+     .lookFilled-luDKDo.colorBrand-3PmwCE {
+       background-color: var(--main-color);
+       color: #fff;
+     }
