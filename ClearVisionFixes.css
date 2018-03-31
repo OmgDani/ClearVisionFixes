@@ -968,10 +968,17 @@
      }
 
      .bda-slist li {
-       min-height: inherit;
-       max-height: inherit;
+       min-height: inherit !important;
+       max-height: inherit !important;
      }
 
      input.quickMessage-318jK-.quickMessage-OCo-Q0 {
-         background-color: transparent;
+       background-color: transparent;
+     }
+
+     .activity-1PAe08 strong {
+       color: var(--main-color);
+     }
+     .username-MwOsla {
+         font-size: 14px;
      }
