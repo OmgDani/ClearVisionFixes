@@ -979,6 +979,22 @@
      .activity-1PAe08 strong {
        color: var(--main-color);
      }
+
      .username-MwOsla {
-         font-size: 14px;
+       font-size: 14px;
+     }
+
+     .theme-dark .status-2Devx1 {
+       border-color: transparent !important;
+       bottom: -2px;
+     }
+
+     .theme-dark .member-2FrNV0.popout-open .content-3JzEqq, .theme-dark .member-2FrNV0.popout-open:hover .content-3JzEqq {
+       background-color: rgba(0, 0, 0, 0.6);
+       color: #fff;
+     }
+
+     .theme-dark .member-2FrNV0:hover .content-3JzEqq {
+       background-color: rgba(0, 0, 0, 0.6);
+       color: #fff;
      }
