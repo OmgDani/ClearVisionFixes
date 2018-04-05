@@ -106,7 +106,9 @@
      }
 
      /*---------------------------------------------------------------------------------------------------------------------------------------*/
-
+     /* #app-mount::before {
+         background: linear-gradient(270deg,rgba(255,0,0,.2),rgba(255,255,0,.2),rgba(0,255,0,.2),rgba(0,0,255,.2)) !important;
+     } */
      /* The following changes are by members of the ClearVision channel on Discord.
    These are community contributions while Zerthox takes a break and deals with life. */
 
@@ -997,4 +999,8 @@
      .theme-dark .member-2FrNV0:hover .content-3JzEqq {
        background-color: rgba(0, 0, 0, 0.6);
        color: #fff;
+     }
+
+     .scroller-fzNley.members-1bid1J {
+         background: transparent;
      }
