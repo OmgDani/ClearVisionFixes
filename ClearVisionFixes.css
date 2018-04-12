@@ -988,8 +988,7 @@
        font-size: 14px;
      }
 
-     .theme-dark .status-2Devx1 {
-       border-color: transparent !important;
+     [class*="theme-"] .status-2Devx1 {
        bottom: -2px;
      }
 
@@ -1009,4 +1008,8 @@
 
      .membersGroup-3_dP5E {
        color: var(--main-color) !important;
+     }
+
+     .status-3jUEha {
+       border-color: transparent;
      }
