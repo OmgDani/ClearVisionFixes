@@ -1013,3 +1013,12 @@
      .status-3jUEha {
        border-color: transparent !important;
      }
+
+     [class*="theme-"] .searchPopout-38pRYh {
+         background-color: rgba(0,0,0,0.8);
+         border: 2px solid var(--main-color);
+     }
+
+     [class*="theme-"] .option-1MvVr1.selected-_bTXUG {
+         background-color: var(--hover-color);
+     }
