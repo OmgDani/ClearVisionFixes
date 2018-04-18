@@ -738,7 +738,7 @@
      }
 
      .menu-3BZuDT {
-       background: rgba(0, 0, 0, 0.8);
+       background: rgba(0, 0, 0, 0.8) !important;
      }
 
      .item-rK1j5B:hover {
@@ -1015,10 +1015,14 @@
      }
 
      [class*="theme-"] .searchPopout-38pRYh {
-         background-color: rgba(0,0,0,0.8);
-         border: 2px solid var(--main-color);
+       background-color: rgba(0, 0, 0, 0.8);
+       border: 2px solid var(--main-color);
      }
 
      [class*="theme-"] .option-1MvVr1.selected-_bTXUG {
-         background-color: var(--hover-color);
+       background-color: var(--hover-color);
+     }
+
+     [class*="theme-"] .item-rK1j5B:hover {
+       background-color: var(--hover-color);
      }
