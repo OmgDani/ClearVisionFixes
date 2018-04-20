@@ -1026,3 +1026,32 @@
      [class*="theme-"] .item-rK1j5B:hover {
        background-color: var(--hover-color);
      }
+
+     .messagesPopoutWrap-1VBR-j.themedPopout-1uUNjn {
+       background: transparent;
+       border: 1px solid var(--main-color);
+     }
+
+     .theme-dark .messagesPopoutWrap-1VBR-j .header-y_zptc {
+       background: rgba(0, 0, 0, 0.9);
+     }
+
+     .messagesPopout-MzE43I.scroller {
+       background: rgba(0, 0, 0, 0.6);
+     }
+
+     .theme-dark .messagesPopoutWrap-1VBR-j .messagesPopout-MzE43I .message-group {
+       background-color: rgba(0, 0, 0, 0.6);
+       border-color: var(--main-color);
+     }
+
+     .theme-dark .messagesPopoutWrap-1VBR-j .messagesPopout-MzE43I .message-group:hover {
+       background: var(--hover-color);
+       border-color: var(--main-color);
+     }
+
+     .theme-dark .messagesPopoutWrap-1VBR-j .messagesPopout-MzE43I .message-group:hover .actionButtons-LKmOj2 {
+       background-color: transparent;
+       box-shadow: none;
+       -webkit-box-shadow: none;
+     }
