@@ -992,12 +992,12 @@
        bottom: -2px;
      }
 
-     .theme-dark .member-2FrNV0.popout-open .content-3JzEqq, .theme-dark .member-2FrNV0.popout-open:hover .content-3JzEqq {
+     [class*="theme-"] .member-2FrNV0.popout-open .content-3JzEqq, [class*="theme-"] .member-2FrNV0.popout-open:hover .content-3JzEqq {
        background-color: rgba(0, 0, 0, 0.6);
        color: #fff;
      }
 
-     .theme-dark .member-2FrNV0:hover .content-3JzEqq {
+     [class*="theme-"] .member-2FrNV0:hover .content-3JzEqq {
        background-color: rgba(0, 0, 0, 0.6);
        color: #fff;
      }
@@ -1032,7 +1032,7 @@
        border: 1px solid var(--main-color);
      }
 
-     .theme-dark .messagesPopoutWrap-1VBR-j .header-y_zptc {
+     [class*="theme-"] .messagesPopoutWrap-1VBR-j .header-y_zptc {
        background: rgba(0, 0, 0, 0.9);
      }
 
@@ -1040,18 +1040,22 @@
        background: rgba(0, 0, 0, 0.6);
      }
 
-     .theme-dark .messagesPopoutWrap-1VBR-j .messagesPopout-MzE43I .message-group {
+     [class*="theme-"] .messagesPopoutWrap-1VBR-j .messagesPopout-MzE43I .message-group {
        background-color: rgba(0, 0, 0, 0.6);
        border-color: var(--main-color);
      }
 
-     .theme-dark .messagesPopoutWrap-1VBR-j .messagesPopout-MzE43I .message-group:hover {
+     [class*="theme-"] .messagesPopoutWrap-1VBR-j .messagesPopout-MzE43I .message-group:hover {
        background: var(--hover-color);
        border-color: var(--main-color);
      }
 
-     .theme-dark .messagesPopoutWrap-1VBR-j .messagesPopout-MzE43I .message-group:hover .actionButtons-LKmOj2 {
+     [class*="theme-"] .messagesPopoutWrap-1VBR-j .messagesPopout-MzE43I .message-group:hover .actionButtons-LKmOj2 {
        background-color: transparent;
        box-shadow: none;
        -webkit-box-shadow: none;
+     }
+
+     [class*="theme-"] .messagesPopoutWrap-1VBR-j .messagesPopout-MzE43I .message-group .actionButtons-LKmOj2 .jumpButton-1CVJpO:hover {
+         background-color: var(--main-color);
      }
