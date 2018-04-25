@@ -1095,3 +1095,79 @@
      [class*="theme-"] .datePicker-1RD4eT .datePickerHint-1iW7Wz .hintValue-45YyWZ:hover {
        background-color: : var(--hover-color);
      }
+
+     .ui-standard-sidebar-view .sidebar-region .sidebar-region-scroller [class*="item"]:nth-child(2)::after, .ui-standard-sidebar-view .sidebar-region .sidebar-region-scroller [class*="item"]:nth-child(3)::after, .ui-standard-sidebar-view .sidebar-region .sidebar-region-scroller [class*="item"]:nth-child(4)::after, .ui-standard-sidebar-view .sidebar-region .sidebar-region-scroller [class*="item"]:nth-child(5)::after, .ui-standard-sidebar-view .sidebar-region .sidebar-region-scroller [class*="item"]:last-child::after {
+       background: none !important;
+     }
+
+     #bd-settings-sidebar .ui-tab-bar-item {
+       padding-left: 50px !important;
+     }
+
+     [layer-id="user-settings"] .ui-standard-sidebar-view .sidebar-region .sidebar-region-scroller .sidebar>*>[class*="item"] {
+       padding-left: 50px !important;
+     }
+
+     .ui-standard-sidebar-view .sidebar-region .sidebar-region-scroller [class*="item"] {
+       padding-left: 20px !important;
+     }
+
+     [layer-id="user-settings"] .ui-standard-sidebar-view .sidebar-region .sidebar-region-scroller .sidebar>*>[class*="item"]:nth-child(2)::after {
+       background: url(https://cdn.rawgit.com/Zerthox/ClearVision/master/icons/person.svg) !important;
+     }
+
+     [layer-id="user-settings"] .ui-standard-sidebar-view .sidebar-region .sidebar-region-scroller .sidebar>*>[class*="item"]:nth-child(3)::after {
+       background: url(https://cdn.rawgit.com/Zerthox/ClearVision/master/icons/security.svg) !important;
+     }
+
+     [layer-id="user-settings"] .ui-standard-sidebar-view .sidebar-region .sidebar-region-scroller .sidebar>*>[class*="item"]:nth-child(4)::after {
+       background: url(https://cdn.rawgit.com/Zerthox/ClearVision/master/icons/apps.svg) !important;
+     }
+
+     [layer-id="user-settings"] .ui-standard-sidebar-view .sidebar-region .sidebar-region-scroller .sidebar>*>[class*="item"]:nth-child(5)::after {
+       background: url(https://cdn.rawgit.com/Zerthox/ClearVision/master/icons/link.svg) !important;
+     }
+
+     .platform-win [layer-id="user-settings"] .ui-standard-sidebar-view .sidebar-region .sidebar-region-scroller .sidebar>*>[class*="item"]:nth-child(11)::after {
+       background: url(https://cdn.rawgit.com/OmgDani/ClearVisionFixes/master/Icons/open_in_new.svg);
+     }
+
+     .platform-win [layer-id="user-settings"] .ui-standard-sidebar-view .sidebar-region .sidebar-region-scroller .sidebar>*>[class*="item"]:nth-child(19)::after {
+       background: url(https://cdn.rawgit.com/Zerthox/ClearVision/master/icons/desktop_windows.svg);
+     }
+
+     .platform-win [layer-id="user-settings"] .ui-standard-sidebar-view .sidebar-region .sidebar-region-scroller .sidebar>*>[class*="item"]:nth-child(24)::after {
+       background: url(https://cdn.rawgit.com/Zerthox/ClearVision/master/icons/exit.svg) !important;
+     }
+
+     .platform-osx [layer-id="user-settings"] .ui-standard-sidebar-view .sidebar-region .sidebar-region-scroller .sidebar>*>[class*="item"]:nth-child(22)::after {
+       background: url(https://cdn.rawgit.com/Zerthox/ClearVision/master/icons/exit.svg) !important;
+     }
+
+     .platform-osx [layer-id="user-settings"] .ui-standard-sidebar-view .sidebar-region .sidebar-region-scroller .sidebar>*>[class*="item"]:nth-child(19)::after {
+       background: url(https://cdn.rawgit.com/Zerthox/ClearVision/master/icons/history.svg) !important;
+     }
+
+     #bd-settings-sidebar .ui-tab-bar-item:nth-child(3)::after {
+       background: url(https://cdn.rawgit.com/Zerthox/ClearVision/master/icons/betterdiscord.svg) !important;
+     }
+
+     #bd-settings-sidebar .ui-tab-bar-item:nth-child(4)::after {
+       background: url(https://cdn.rawgit.com/OmgDani/ClearVisionFixes/6c6aaf1a/Icons/bandage.svg) !important;
+     }
+
+     #bd-settings-sidebar .ui-tab-bar-item:nth-child(5)::after {
+       background: url(https://cdn.rawgit.com/Zerthox/ClearVision/master/icons/code.svg) !important;
+     }
+
+     #bd-settings-sidebar .ui-tab-bar-item:nth-child(6)::after {
+       background: url(https://cdn.rawgit.com/Zerthox/ClearVision/master/icons/emote.svg) !important;
+     }
+
+     #bd-settings-sidebar .ui-tab-bar-item:nth-child(7)::after {
+       background: url(https://cdn.rawgit.com/Zerthox/ClearVision/master/icons/puzzle.svg) !important;
+     }
+
+     #bd-settings-sidebar .ui-tab-bar-item:nth-child(8)::after {
+       background: url(https://cdn.rawgit.com/Zerthox/ClearVision/master/icons/palette.svg) !important;
+     }
