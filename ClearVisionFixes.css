@@ -1211,6 +1211,6 @@ input.quickMessage-2XpSaN.quickMessage-1yeL4E {
   background-color: var(--main-color);
 }
 
-.membersGroup-v9BXpm, .activityText-sLG0UL {
+.membersGroup-v9BXpm, .activityText-sLG0UL strong {
   color: var(--main-color) !important;
 }
