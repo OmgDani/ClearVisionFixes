@@ -1198,7 +1198,7 @@
      }
 
      [class*="theme-"] [class*="channelTextAreaEnabled"] [class*="inner"] {
-       border: 2px var(--main-color) solid;
+       border: 1px var(--main-color) solid;
      }
 
      [class*="theme-"] .member-3W1lQa:hover .content-OzHfo4 .status-2s6iDp, .container-2Thooq .status {
@@ -1215,4 +1215,8 @@
 
      .video-1FfuMD {
        background-color: : transparent;
+     }
+
+     [class*="theme-"] .member-3W1lQa.popout-open .content-OzHfo4 {
+       background-color: var(--main-color);
      }
