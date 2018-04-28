@@ -1200,3 +1200,7 @@
      [class*="theme-"] [class*="channelTextAreaEnabled"] [class*="inner"] {
          border: 2px var(--main-color) solid;
      }
+
+     [class*="theme-"] .member-3W1lQa:hover .content-OzHfo4 .status-2s6iDp {
+       border-color: transparent;
+     }
