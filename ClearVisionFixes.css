@@ -1190,7 +1190,8 @@
 
      [class*="theme-"] .status-2s6iDp {
        border-color: transparent;
-       bottom: -2px;
+       bottom: -1px;
+       right: -1px;
      }
 
      .theme-dark .typing-2GQL18 {
@@ -1201,7 +1202,7 @@
        border: 1px var(--main-color) solid;
      }
 
-     [class*="theme-"] .member-3W1lQa:hover .content-OzHfo4 .status-2s6iDp, .container-2Thooq .status {
+     [class*="theme-"] .member-3W1lQa:hover .content-OzHfo4 .status-2s6iDp, .container-2Thooq .status, .status-oxiHuE {
        border: none;
      }
 
@@ -1222,5 +1223,5 @@
      }
 
      .membersGroup-v9BXpm, .activityText-sLG0UL {
-       color: var(--main-color);
+       color: var(--main-color) !important;
      }
