@@ -1027,12 +1027,12 @@
        background-color: var(--hover-color);
      }
 
-     .messagesPopoutWrap-1VBR-j.themedPopout-1uUNjn {
+     .messagesPopoutWrap-1MQ1bW.themedPopout-25DgLi {
        background: transparent;
        border: 1px solid var(--main-color);
      }
 
-     [class*="theme-"] .messagesPopoutWrap-1VBR-j .header-y_zptc {
+     [class*="theme-"] .messagesPopoutWrap-1MQ1bW .header-ykumBX.header-SsaQ8X {
        background: rgba(0, 0, 0, 0.9);
      }
 
@@ -1040,23 +1040,23 @@
        background: rgba(0, 0, 0, 0.6);
      }
 
-     [class*="theme-"] .messagesPopoutWrap-1VBR-j .messagesPopout-MzE43I .message-group {
+     [class*="theme-"] .messagesPopoutWrap-1MQ1bW .messagesPopout-24nkyi .message-group {
        background-color: rgba(0, 0, 0, 0.6);
        border-color: var(--main-color);
      }
 
-     [class*="theme-"] .messagesPopoutWrap-1VBR-j .messagesPopout-MzE43I .message-group:hover {
+     [class*="theme-"] .messagesPopoutWrap-1MQ1bW .messagesPopout-24nkyi .message-group:hover {
        background: var(--hover-color);
        border-color: var(--main-color);
      }
 
-     [class*="theme-"] .messagesPopoutWrap-1VBR-j .messagesPopout-MzE43I .message-group:hover .actionButtons-LKmOj2 {
+     [class*="theme-"] .messagesPopoutWrap-1MQ1bW .messagesPopout-24nkyi .message-group:hover .actionButtons-1sUUug {
        background-color: transparent;
        box-shadow: none;
        -webkit-box-shadow: none;
      }
 
-     [class*="theme-"] .messagesPopoutWrap-1VBR-j .messagesPopout-MzE43I .message-group .actionButtons-LKmOj2 .jumpButton-1CVJpO {
+     [class*="theme-"] .messagesPopoutWrap-1MQ1bW .messagesPopout-24nkyi .message-group .actionButtons-1sUUug .jumpButton-3DTcS_ {
        background-color: var(--main-color);
      }
 
@@ -1174,4 +1174,12 @@
 
      .container-2lgZY8, [class*="theme-"] .layer-3QrUeG, [class*="theme-"] .layers-3iHuyZ, [class*="theme-"] .members-1998pB, .container-PNkimc {
        background-color: transparent;
+     }
+
+     .unread-1xRYoj, .mention-1f5kbO, .contentSelectedText-3wUhMi {
+       background-color: var(--main-color);
+     }
+
+     .unread-1xRYoj.active-1SSsBb:hover, .mention-1f5kbO.active-1SSsBb:hover, .contentHoveredText-2D9B-x {
+       background: var(--hover-color);
      }
