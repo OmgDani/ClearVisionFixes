@@ -1036,7 +1036,7 @@
        background: rgba(0, 0, 0, 0.9);
      }
 
-     .messagesPopout-MzE43I.scroller {
+     .messagesPopout-24nkyi.scroller {
        background: rgba(0, 0, 0, 0.6);
      }
 
@@ -1195,4 +1195,8 @@
 
      .theme-dark .typing-2GQL18 {
        background: transparent;
+     }
+
+     [class*="theme-"] [class*="channelTextAreaEnabled"] [class*="inner"] {
+         border: 2px var(--main-color) solid;
      }
