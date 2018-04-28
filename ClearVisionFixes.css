@@ -1201,6 +1201,6 @@
          border: 2px var(--main-color) solid;
      }
 
-     [class*="theme-"] .member-3W1lQa:hover .content-OzHfo4 .status-2s6iDp {
+     [class*="theme-"] .member-3W1lQa:hover .content-OzHfo4 .status-2s6iDp, .container-2Thooq .status {
        border-color: transparent;
      }
