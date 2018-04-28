@@ -1176,10 +1176,23 @@
        background-color: transparent;
      }
 
-     .unread-1xRYoj, .mention-1f5kbO, .contentSelectedText-3wUhMi {
+     .unread-1xRYoj, .mention-1f5kbO, .contentSelectedText-3wUhMi, .unread-1Dp-OI {
        background-color: var(--main-color);
      }
 
      .unread-1xRYoj.active-1SSsBb:hover, .mention-1f5kbO.active-1SSsBb:hover, .contentHoveredText-2D9B-x {
        background: var(--hover-color);
+     }
+
+     .theme-dark .member-3W1lQa:hover .content-OzHfo4 {
+       background-color: var(--hover-color);
+     }
+
+     [class*="theme-"] .status-2s6iDp {
+       border-color: transparent;
+       bottom: -2px;
+     }
+
+     .theme-dark .typing-2GQL18 {
+       background: transparent;
      }
