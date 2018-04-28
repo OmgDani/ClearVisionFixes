@@ -1220,3 +1220,7 @@
      [class*="theme-"] .member-3W1lQa.popout-open .content-OzHfo4 {
        background-color: var(--main-color);
      }
+
+     .membersGroup-v9BXpm, .activityText-sLG0UL {
+       color: var(--main-color);
+     }
