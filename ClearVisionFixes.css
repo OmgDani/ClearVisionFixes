@@ -1171,3 +1171,7 @@
      #bd-settings-sidebar .ui-tab-bar-item:nth-child(8)::after {
        background: url(https://cdn.rawgit.com/Zerthox/ClearVision/master/icons/palette.svg) !important;
      }
+
+     .container-2lgZY8, [class*="theme-"] .layer-3QrUeG, [class*="theme-"] .layers-3iHuyZ, [class*="theme-"] .members-1998pB, .container-PNkimc {
+       background-color: transparent;
+     }
