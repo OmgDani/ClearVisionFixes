@@ -1198,13 +1198,21 @@
      }
 
      [class*="theme-"] [class*="channelTextAreaEnabled"] [class*="inner"] {
-         border: 2px var(--main-color) solid;
+       border: 2px var(--main-color) solid;
      }
 
      [class*="theme-"] .member-3W1lQa:hover .content-OzHfo4 .status-2s6iDp, .container-2Thooq .status {
-       border-color: transparent;
+       border: none;
      }
 
      input.quickMessage-2XpSaN.quickMessage-1yeL4E {
-         background: transparent;
+       background: transparent;
+     }
+
+     .container-2Thooq {
+       background: transparent;
+     }
+
+     .video-1FfuMD {
+       background-color: : transparent;
      }
