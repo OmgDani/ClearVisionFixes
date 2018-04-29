@@ -1163,11 +1163,11 @@ input.quickMessage-318jK-.quickMessage-OCo-Q0 {
   background: var(--hover-color);
 }
 
-.contentHoveredText-2D9B-x {
-  background: hsla(0, 0%, 100%, .7);
+[class*="theme-"] .member-3W1lQa:hover .content-OzHfo4, .contentHoveredText-2D9B-x {
+  background: hsla(216, 4%, 74%, .1);
 }
 
-[class*="theme-"] .member-3W1lQa:hover .content-OzHfo4, [class*="theme-"] .member-3W1lQa.popout-open:hover .content-OzHfo4 {
+[class*="theme-"] .member-3W1lQa.popout-open:hover .content-OzHfo4 {
   background-color: var(--hover-color);
 }
 
