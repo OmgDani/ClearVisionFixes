@@ -1060,7 +1060,7 @@ input.quickMessage-318jK-.quickMessage-OCo-Q0 {
 }
 
 [class*="theme-"] .calendarPicker-2yf6Ci .react-datepicker__header {
-  background-color: #36393f;
+  background: rgba(0, 0, 0, 0.7);
 }
 
 [class*="theme-"] .calendarPicker-2yf6Ci .react-datepicker__day {
@@ -1203,4 +1203,14 @@ input.quickMessage-2XpSaN.quickMessage-1yeL4E {
 
 .membersGroup-v9BXpm, .activityText-sLG0UL strong {
   color: var(--main-color) !important;
+}
+
+.react-datepicker .react-datepicker__day {
+  border-color: transparent !important;
+  border-left: 1px solid hsla(0, 0%, 100%, .1) !important;
+  border-bottom: 1px solid hsla(0, 0%, 100%, .1) !important;
+}
+
+.react-datepicker .react-datepicker__navigation.react-datepicker__navigation--next, .react-datepicker .react-datepicker__navigation.react-datepicker__navigation--previous {
+  border-color: transparent !important;
 }
