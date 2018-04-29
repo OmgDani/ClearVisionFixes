@@ -728,7 +728,7 @@ div.footer-4pOKm8>button:nth-child(1):hover {
   background: rgba(0, 0, 0, 0.8) !important;
 }
 
-.item-rK1j5B:hover {
+[class*="theme-"] .item-1GzJrl:hover {
   background: rgba(0, 0, 0, 0.8);
   color: white;
 }
