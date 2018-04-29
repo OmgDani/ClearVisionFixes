@@ -1159,8 +1159,12 @@ input.quickMessage-318jK-.quickMessage-OCo-Q0 {
   background-color: var(--main-color);
 }
 
-.unread-1xRYoj.active-1SSsBb:hover, .mention-1f5kbO.active-1SSsBb:hover, .contentHoveredText-2D9B-x {
+.unread-1xRYoj.active-1SSsBb:hover, .mention-1f5kbO.active-1SSsBb:hover {
   background: var(--hover-color);
+}
+
+.contentHoveredText-2D9B-x {
+  background: rgba(0, 0, 0, 0.5);
 }
 
 [class*="theme-"] .member-3W1lQa:hover .content-OzHfo4, [class*="theme-"] .member-3W1lQa.popout-open:hover .content-OzHfo4 {
