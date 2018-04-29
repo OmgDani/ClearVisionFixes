@@ -621,7 +621,7 @@ DIV.flex-spacer.flex-horizontal, #friends DIV.friends-table {
   background: rgba(0, 0, 0, 0.65);
 }
 
-.topSectionPlaying-3jAH9b {
+.topSectionPlaying-1J5E4n {
   background: rgba(0, 0, 0, 0.65);
 }
 
@@ -855,7 +855,7 @@ div.footer-4pOKm8>button:nth-child(1):hover {
   background: transparent;
 }
 
-.topSectionSpotify-3744IX {
+.topSectionSpotify-1lI0-P {
   background: rgba(0, 0, 0, 0.6);
 }
 
@@ -1213,4 +1213,8 @@ input.quickMessage-2XpSaN.quickMessage-1yeL4E {
 
 .react-datepicker .react-datepicker__navigation.react-datepicker__navigation--next, .react-datepicker .react-datepicker__navigation.react-datepicker__navigation--previous {
   border-color: transparent !important;
+}
+
+.theme-dark .datePicker--XZbmJ .datePickerHint-3Q1Udw .hintValue-29ny8Z:hover {
+  background-color: var(--hover-color);
 }
