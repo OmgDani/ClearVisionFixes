@@ -1,13 +1,12 @@
-.container-2Thooq::after {
+.accountDetails-3k9g4n::after {
   content: "ClearVisionFixes";
   font-size: 11px;
   text-align: center;
-  position: absolute;
   font-weight: 700;
-  left: 0px;
-  right: 960px;
   bottom: -1px;
   opacity: 0.3;
+  position: sticky;
+  color: #fff;
 }
 
 /*---------------------------User popout fixes---------------------------*/
@@ -46,7 +45,7 @@
   overflow: hidden;
 }
 
-[class*="userPopout-"] [class*="body-"]:not(.bodyAlignCenter-2WUfxb):not(.bodyNormal-2QqN-G) {
+[class*="userPopout-"] [class*="body-"]:not(.bodyAlignCenter-1KzvJk):not(.bodyNormal-2QqN-G) {
   background: rgba(0, 0, 0, .65);
   padding-bottom: 10px;
   border-bottom: 0px;
@@ -289,7 +288,6 @@ input:focus {
 .private .channel-group-dm+.header-toolbar>.private-channel-call-btns-wrapper>button:nth-child(2) span {
   background-image: url(https://cdn.rawgit.com/Zerthox/ClearVision/master/icons/call.svg) !important;
 }
-
 
 .channelTextAreaEnabled-c05Zpy.channelTextArea-1HTP3C.channel-text-area-default {
   box-shadow: 0 0 10px var(--main-color);
