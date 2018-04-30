@@ -45,7 +45,7 @@
   overflow: hidden;
 }
 
-[class*="userPopout-"] [class*="body-"]:not(.bodyAlignCenter-1KzvJk):not(.bodyNormal-2QqN-G) {
+[class*="userPopout-"] [class*="body-"]:not(.bodyAlignCenter-1KzvJk):not(.bodyNormal-2D39hT) {
   background: rgba(0, 0, 0, .65);
   padding-bottom: 10px;
   border-bottom: 0px;
@@ -900,7 +900,7 @@ button.iconButtonDefault-3QZh-A.iconButton-3mKjyp.action-button.medium-C4dspv:fi
   background: transparent !important;
 }
 
-.headerStreaming-lmgoma {
+.headerStreaming-2FjmGz {
   background: transparent;
 }
 
