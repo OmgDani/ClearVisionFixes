@@ -1167,10 +1167,6 @@ input.quickMessage-318jK-.quickMessage-OCo-Q0 {
   background: hsla(216, 4%, 74%, .1);
 }
 
-[class*="theme-"] .member-3W1lQa.popout-open:hover .content-OzHfo4 {
-  background-color: var(--hover-color);
-}
-
 [class*="theme-"] .status-2s6iDp {
   border-color: transparent;
   bottom: -1px;
