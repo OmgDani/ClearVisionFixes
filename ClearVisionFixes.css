@@ -1203,7 +1203,7 @@ input.quickMessage-2XpSaN.quickMessage-1yeL4E {
 
 [class*="theme-"] .member-3W1lQa.popout-open .content-OzHfo4 {
   background-color: var(--main-color);
-  color: var(--hover-color);
+  color: var(--hover-color) !important;
 }
 
 .membersGroup-v9BXpm, .activityText-sLG0UL strong {
