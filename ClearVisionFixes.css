@@ -997,7 +997,7 @@ input.quickMessage-2XpSaN.quickMessage-1yeL4E {
 }
 
 [class*="theme-"] .datePicker-1RD4eT .datePickerHint-1iW7Wz .hintValue-45YyWZ:hover {
-  background-color: : var(--hover-color);
+  background-color: var(--hover-color);
 }
 
 .ui-standard-sidebar-view .sidebar-region .sidebar-region-scroller [class*="item"]:nth-child(2)::after, .ui-standard-sidebar-view .sidebar-region .sidebar-region-scroller [class*="item"]:nth-child(3)::after, .ui-standard-sidebar-view .sidebar-region .sidebar-region-scroller [class*="item"]:nth-child(4)::after, .ui-standard-sidebar-view .sidebar-region .sidebar-region-scroller [class*="item"]:nth-child(5)::after, .ui-standard-sidebar-view .sidebar-region .sidebar-region-scroller [class*="item"]:last-child::after {
@@ -1115,7 +1115,7 @@ input.quickMessage-2XpSaN.quickMessage-1yeL4E {
 }
 
 .video-1FfuMD {
-  background-color: : transparent;
+  background-color: transparent;
 }
 
 [class*="theme-"] .member-3W1lQa.popout-open .content-OzHfo4 {
