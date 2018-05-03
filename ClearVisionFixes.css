@@ -636,7 +636,7 @@ button.buttonGreyFilledDefault-3uZpOq.buttonFilledDefault-AELjWf.buttonDefault-2
   background: rgba(0, 0, 0, 0.6) !important;
 }
 
-.theme-dark.contextMenu-HLZMGh {
+[class*="theme-"].contextMenu-HLZMGh {
   background: rgba(0, 0, 0, 0.8) !important;
 }
 
@@ -1136,7 +1136,7 @@ input.quickMessage-2XpSaN.quickMessage-1yeL4E {
   border-color: transparent !important;
 }
 
-.theme-dark .datePicker--XZbmJ .datePickerHint-3Q1Udw .hintValue-29ny8Z:hover {
+[class*="theme-"] .datePicker--XZbmJ .datePickerHint-3Q1Udw .hintValue-29ny8Z:hover {
   background-color: var(--hover-color);
 }
 
