@@ -1,5 +1,5 @@
 .accountDetails-3k9g4n::after {
-  content: "ClearVisionFixes";
+  content: "ClearVision V5.2.5";
   font-size: 11px;
   text-align: center;
   font-weight: 700;
@@ -1146,4 +1146,13 @@ input.quickMessage-2XpSaN.quickMessage-1yeL4E {
 
 .activity-1IYsbk strong {
   color: var(--main-color);
+}
+
+.emojiPicker-3m1S-j .dimmer-3iH-5D.visible-3k45bQ {
+  background-color: hsla(0, 0%, 0%, .8);
+}
+
+.diversitySelector-tmmMv0 .popout-2nUePc {
+  background-color: rgba(0, 0, 0, 0.3);
+  border-color: var(--main-color) !important;
 }
