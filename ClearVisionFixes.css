@@ -362,29 +362,20 @@ input:focus {
 .container-2Rl01u.popout-open {
   z-index: 10000;
 }
-
-button.iconButtonStatic-2cPMA6 .iconButton-3V4WS5 .toggle-button .medium-2JR8YY:nth-child(4) {
-  background-image: url(https://cdn.rawgit.com/Zerthox/ClearVision/master/icons/mic_off.svg) !important;
+button.iconButtonDefault-2cKx7-.iconButton-3V4WS5.toggle-button.medium-2JR8YY:nth-child(1) {
+    background-image: url(https://cdn.rawgit.com/OmgDani/ClearVisionFixes/bef739fb/Icons/screen%20share.svg) !important;
 }
 
-/*video cam*/
-
-/*on*/
-
-button.iconButtonStatic-2cPMA6 .iconButton-3V4WS5 .toggle-button .medium-2JR8YY:nth-child(2) {
-  background-image: url(https://cdn.rawgit.com/OmgDani/ClearVisionFixes/bef739fb/Icons/videocam%20off.svg) !important;
+button.iconButtonDefault-2cKx7-.iconButton-3V4WS5.toggle-button.medium-2JR8YY:nth-child(2) {
+    background-image: url(https://cdn.rawgit.com/OmgDani/ClearVisionFixes/bef739fb/Icons/videocam%20off.svg) !important;
 }
 
-/*off*/
-
-button.iconButtonDefault-2cKx7- .iconButton-3V4WS5 .toggle-button .medium-2JR8YY:nth-child(2) {
-  background-image: url(https://cdn.rawgit.com/Zerthox/ClearVision/d34dc45b/icons/videocam.svg) !important;
+button.iconButtonStatic-2cPMA6.iconButton-3V4WS5.toggle-button.medium-2JR8YY:nth-child(2) {
+    background-image: url(https://cdn.rawgit.com/Zerthox/ClearVision/d34dc45b/icons/videocam.svg) !important;
 }
 
-/*screenshare*/
-
-button.iconButtonDefault-2cKx7- .iconButton-3V4WS5 .toggle-button .medium-2JR8YY:nth-child(1) {
-  background-image: url(https://cdn.rawgit.com/OmgDani/ClearVisionFixes/bef739fb/Icons/screen%20share.svg) !important;
+button.iconButtonStatic-2cPMA6.iconButton-3V4WS5.toggle-button.medium-2JR8YY:nth-child(4) {
+    background-image: url(https://cdn.rawgit.com/Zerthox/ClearVision/master/icons/mic_off.svg) !important;
 }
 
 /*----------------------------------------------------------------------------------------------------*/
