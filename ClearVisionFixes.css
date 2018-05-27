@@ -832,7 +832,7 @@ div.footer-3mqk7D>button:nth-child(1):hover {
   background-color: var(--main-color);
 }
 
-button.iconButtonDefault-2cKx7- .iconButton-3V4WS5 .action-button .medium-2JR8YY:first-child {
+button.iconButtonDefault-2cKx7-.iconButton-3V4WS5.action-button.medium-2JR8YY:first-child {
   background-image: url(https://cdn.rawgit.com/Zerthox/ClearVision/8c773772/icons/fullscreen.svg) !important;
 }
 
