@@ -299,9 +299,10 @@ input:focus {
   box-shadow: 0 0 10px var(--main-color);
   border-radius: 5px;
 }
+
 .inner-zqa7da.flex-1O1GKY {
   border: 1px solid var(--main-color);
-  background: rgba(0,0,0,0.7);
+  background: rgba(0, 0, 0, 0.7);
 }
 
 textarea.textAreaDisabled-2_o-kZ.textArea-2Spzkt.textArea-2Spzkt.scrollbarGhostHairline-1mSOM1.scrollbar-3dvm_9 {
@@ -370,20 +371,21 @@ textarea.textAreaDisabled-2_o-kZ.textArea-2Spzkt.textArea-2Spzkt.scrollbarGhostH
 .container-2Rl01u.popout-open {
   z-index: 10000;
 }
+
 button.iconButtonDefault-2cKx7-.iconButton-3V4WS5.toggle-button.medium-2JR8YY:nth-child(1) {
-    background-image: url(https://cdn.rawgit.com/OmgDani/ClearVisionFixes/bef739fb/Icons/screen%20share.svg) !important;
+  background-image: url(https://cdn.rawgit.com/OmgDani/ClearVisionFixes/bef739fb/Icons/screen%20share.svg) !important;
 }
 
 button.iconButtonDefault-2cKx7-.iconButton-3V4WS5.toggle-button.medium-2JR8YY:nth-child(2) {
-    background-image: url(https://cdn.rawgit.com/OmgDani/ClearVisionFixes/bef739fb/Icons/videocam%20off.svg) !important;
+  background-image: url(https://cdn.rawgit.com/OmgDani/ClearVisionFixes/bef739fb/Icons/videocam%20off.svg) !important;
 }
 
 button.iconButtonStatic-2cPMA6.iconButton-3V4WS5.toggle-button.medium-2JR8YY:nth-child(2) {
-    background-image: url(https://cdn.rawgit.com/Zerthox/ClearVision/d34dc45b/icons/videocam.svg) !important;
+  background-image: url(https://cdn.rawgit.com/Zerthox/ClearVision/d34dc45b/icons/videocam.svg) !important;
 }
 
 button.iconButtonStatic-2cPMA6.iconButton-3V4WS5.toggle-button.medium-2JR8YY:nth-child(4) {
-    background-image: url(https://cdn.rawgit.com/Zerthox/ClearVision/master/icons/mic_off.svg) !important;
+  background-image: url(https://cdn.rawgit.com/Zerthox/ClearVision/master/icons/mic_off.svg) !important;
 }
 
 /*----------------------------------------------------------------------------------------------------*/
@@ -1162,4 +1164,8 @@ input.quickMessage-2XpSaN.quickMessage-1yeL4E {
 
 .theme-dark .wrapper-29NfPK {
   background-color: transparent
+}
+
+.avatar-large {
+  left: 0px !important;
 }
