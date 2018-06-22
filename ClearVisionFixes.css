@@ -1163,9 +1163,32 @@ input.quickMessage-2XpSaN.quickMessage-1yeL4E {
 }
 
 .theme-dark .wrapper-29NfPK {
-  background-color: transparent
+  background-color: transparent !important;
 }
 
 .avatar-large {
   left: 0px !important;
+}
+
+[class*="theme-"] .activityFeed-28jde9 {
+  background-color: transparent !important;
+}
+
+[class*="theme-"] .headerText-2niCs_ {
+  color: var(--main-color);
+}
+
+[class*="theme-"] .lookFilled-1Gx00P.hoverBrand-1_Fxlk.hasHover-3X1-zV:hover {
+    background-color: var(--hover-color);
+}
+
+.headerButtonColor-G7_f-V, [class*="theme-"] .lookFilled-1Gx00P.colorPrimary-3b3xI6 {
+    background-color: var(--main-color);
+}
+[class*="theme-"] .gameName-wzJptK {
+    color: var(--main-color);
+}
+
+.headerTitle-3gIsns.ellipsis-2KfMNA.textHover-3f_j3D {
+    color: var(--main-color);
 }
