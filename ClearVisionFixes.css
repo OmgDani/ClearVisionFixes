@@ -1192,3 +1192,7 @@ input.quickMessage-2XpSaN.quickMessage-1yeL4E {
 .headerTitle-3gIsns.ellipsis-2KfMNA.textHover-3f_j3D {
     color: var(--main-color);
 }
+.message-group .avatar-large {
+  box-shadow: none;
+  -webkit-box-shadow: none !important;
+}
