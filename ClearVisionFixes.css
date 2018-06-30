@@ -1062,11 +1062,11 @@ input.quickMessage-2XpSaN.quickMessage-1yeL4E {
 }
 
 #bd-settings-sidebar .ui-tab-bar-item:nth-child(5)::after {
-  background: url(https://cdn.rawgit.com/Zerthox/ClearVision/master/icons/code.svg) !important;
+  background: url(https://cdn.rawgit.com/Zerthox/ClearVision/master/icons/emote.svg) !important;
 }
 
 #bd-settings-sidebar .ui-tab-bar-item:nth-child(6)::after {
-  background: url(https://cdn.rawgit.com/Zerthox/ClearVision/master/icons/emote.svg) !important;
+  background: url(https://cdn.rawgit.com/Zerthox/ClearVision/master/icons/code.svg) !important;
 }
 
 #bd-settings-sidebar .ui-tab-bar-item:nth-child(7)::after {
