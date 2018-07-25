@@ -1162,7 +1162,7 @@ input.quickMessage-2XpSaN.quickMessage-1yeL4E {
   background-color: var(--main-color);
 }
 
-.theme-dark .wrapper-29NfPK {
+[class*="theme-"] .wrapper-29NfPK {
   background-color: transparent !important;
 }
 
@@ -1202,4 +1202,71 @@ input.quickMessage-2XpSaN.quickMessage-1yeL4E {
 }
 #bd-settingspane-container .ui-switch-wrapper .ui-switch-checkbox:checked+.ui-switch::before {
   transform: translate(0,0) !important;
+}
+
+.mention, [class*="theme-"] .isMentioned-N-h9aa .mention {
+  color: rgba(255, 255, 255, 0.85)!important;
+  background: rgba(115,139,215,.1)!important;
+  padding: 1px 4px;
+  border-radius: 6px;
+  transition: all .3s ease-in-out;
+  -webkit-transition: all .3s ease-in-out;
+  -moz-transition: all .3s ease-in-out;
+  -o-transition: all .3s ease-in-out;
+  -ms-transition: all .3s ease-in-out;
+  white-space: nowrap;
+}
+
+[class*="theme-"] .markup-2BOw-j code, [class*="theme-"] .markup-2BOw-j code.inline {
+color: hsla(0, 0%, 100%, .7) !important;
+background: transparent !important;
+}
+
+[class*="theme-"] .markup-2BOw-j pre {
+background: rgba(0,0,0,0.4);
+border-color: rgba(32,34,37,.3);
+}
+
+span.wrapperHover-1GktnT.wrapper-3WhCwL.da-wrapperHover.da-wrapper {
+color: hsla(0, 0%, 100%, .8) !important;
+background: rgba(115,139,215,.1)!important;
+padding: 1px 4px;
+border-radius: 6px;
+transition: all .3s ease-in-out;
+-webkit-transition: all .3s ease-in-out;
+-moz-transition: all .3s ease-in-out;
+-o-transition: all .3s ease-in-out;
+-ms-transition: all .3s ease-in-out;
+white-space: nowrap;
+}
+
+.isMentionedCozy-3isp7y:after {
+  background: transparent !important;
+  border-left: 4px solid var(--main-color);
+  border-radius: 3px 0 0 3px;
+  bottom: 0;
+  content: " ";
+  left: -6px;
+  position: absolute;
+  top: 0;
+  width: 2px;
+}
+
+.isMentionedCozy-3isp7y .mention:hover {
+  cursor: pointer;
+  color: #fff;
+  background-color: var(--main-color)!important;
+  text-decoration: none;
+}
+
+[class*="theme-"] .isMentioned-N-h9aa {
+  background: rgba(0,0,0,0.2);
+}
+
+[class*="theme-"] .hljs-doctag, [class*="theme-"] .hljs-literal, [class*="theme-"] .hljs-meta .hljs-meta-string, [class*="theme-"] .hljs-number, [class*="theme-"] .hljs-regexp, [class*="theme-"] .hljs-string {
+  color: #2aa198 !important;
+}
+
+[class*="theme-"] .isMentioned-N-h9aa {
+  background: rgba(0,0,0,0.2);
 }
