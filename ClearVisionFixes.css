@@ -1275,6 +1275,6 @@ white-space: nowrap;
 }
 
 [class*="theme-"] .messageGroupWrapper-o-Zw7G {
-  background: rgba(0,0,0,0.4);
-  border-color: var(--main-color);
+  background: rgba(0,0,0,0.4) !important;
+  border-color: var(--main-color) !important;
 }
