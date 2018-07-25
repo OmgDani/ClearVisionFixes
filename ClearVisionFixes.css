@@ -1270,3 +1270,6 @@ white-space: nowrap;
 [class*="theme-"] .isMentioned-N-h9aa {
   background: rgba(0,0,0,0.2);
 }
+[class*="theme-"] .username-_4ZSMR, [class*="theme-"] .markup-2BOw-j {
+  color: rgba(255, 255, 255, 0.75);
+}
