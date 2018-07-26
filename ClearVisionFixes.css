@@ -1228,7 +1228,7 @@ border-color: rgba(32,34,37,.3);
 }
 
 span.wrapperHover-1GktnT.wrapper-3WhCwL.da-wrapperHover.da-wrapper {
-color: hsla(0, 0%, 100%, .8) !important;
+color: hsla(0, 0%, 100%, .8);
 background: rgba(115,139,215,.1)!important;
 padding: 1px 4px;
 border-radius: 6px;
@@ -1252,11 +1252,11 @@ white-space: nowrap;
   width: 2px;
 }
 
-.isMentionedCozy-3isp7y .mention:hover {
+.isMentionedCozy-3isp7y .mention:hover, span.wrapperHover-1GktnT.wrapper-3WhCwL.da-wrapperHover.da-wrapper:hover {
   cursor: pointer;
   color: #fff;
   background-color: var(--main-color)!important;
-  text-decoration: none;
+  text-decoration: none !important;
 }
 
 [class*="theme-"] .isMentioned-N-h9aa {
