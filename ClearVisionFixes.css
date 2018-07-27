@@ -1207,7 +1207,7 @@ input.quickMessage-2XpSaN.quickMessage-1yeL4E {
 .mention, [class*="theme-"] .isMentioned-N-h9aa .mention {
   color: rgba(255, 255, 255, 0.85)!important;
   background: rgba(115,139,215,.1)!important;
-  padding: 1px 4px;
+  padding: 2px 4px 1px;
   border-radius: 6px;
   transition: all .3s ease-in-out;
   -webkit-transition: all .3s ease-in-out;
