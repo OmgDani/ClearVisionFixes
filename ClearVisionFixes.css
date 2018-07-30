@@ -1227,7 +1227,7 @@ background: rgba(0,0,0,0.4);
 border-color: rgba(32,34,37,.3);
 }
 
-span.wrapperHover-1GktnT.wrapper-3WhCwL.da-wrapperHover.da-wrapper {
+[class*="theme-"] .wrapper-3WhCwL {
 color: hsla(0, 0%, 100%, .8);
 background: rgba(115,139,215,.1)!important;
 padding: 1px 4px;
