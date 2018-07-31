@@ -1363,3 +1363,7 @@ white-space: nowrap;
   overflow: hidden;
   cursor: default;
 }
+
+.homeIcon-1FoKUJ:hover {
+  background: var(--hover-color);
+}
