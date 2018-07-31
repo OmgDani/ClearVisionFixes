@@ -1324,7 +1324,11 @@ white-space: nowrap;
   font-weight: 600;
 }
 
-[class*="theme-"] .homeIcon-1FoKUJ, [class*="theme-"] .guild-1EfMGQ.unread-qLkInr:before {
+.selected-ML3OIq .guildInner-3DSoA4.da-guildInner .homeIcon-1FoKUJ {
+  background-color: var(--main-color) !important;
+}
+
+[class*="theme-"] .guild-1EfMGQ.unread-qLkInr:before {
   background-color: var(--main-color);
 }
 
@@ -1343,4 +1347,19 @@ white-space: nowrap;
 [class*="theme-"] .guildsAdd-21_IdK:hover {
   border-color: var(--hover-color);
   color: var(--hover-color);
+}
+
+[class*="theme-"] .guild-1EfMGQ .guildInner-3DSoA4 {
+  background: rgba(0,0,0,0.5) !important;
+}
+
+.friendsOnline-_wi_fM.da-friendsOnline {
+  background: rgba(21, 21, 21, 0.41);
+  border-radius: 25px;
+  color: #DCDCDC;
+  text-transform: uppercase;
+  -webkit-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+  overflow: hidden;
+  cursor: default;
 }
