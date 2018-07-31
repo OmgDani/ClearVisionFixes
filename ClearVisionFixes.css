@@ -1305,3 +1305,42 @@ white-space: nowrap;
 
 
 /*---------------------------------------------------*/
+
+
+[class*="theme-"] .guildsWrapper-5TJh6A {
+    background-color: rgba(0,0,0,0.6);
+}
+
+.wrapper-232cHJ.badge-1GsMF2.da-wrapper.da-badge {
+  -webkit-animation: badge 1s ease-in-out infinite alternate;
+  animation: badge 1s ease-in-out infinite alternate;
+}
+
+.wrapper-232cHJ.badge-1GsMF2.da-wrapper.da-badge {
+  padding: 3px 5px;
+  background-color: var(--main-color);
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  font-weight: 600;
+}
+
+[class*="theme-"] .homeIcon-1FoKUJ, [class*="theme-"] .guild-1EfMGQ.unread-qLkInr:before {
+  background-color: var(--main-color);
+}
+
+[class*="theme-"]  .guild-1EfMGQ.selected-ML3OIq:before {
+  background: var(--main-color) !important;
+  animation: selectserver .5s cubic-bezier(0.22, 0.61, 0.36, 1);
+  -webkit-animation: selectserver .5s cubic-bezier(0.22, 0.61, 0.36, 1);
+}
+
+[class*="theme-"] .guildsAdd-21_IdK {
+  background: rgba(0,0,0,0.8);
+  border-color: var(--main-color);
+  color: var(--main-color);
+}
+
+[class*="theme-"] .guildsAdd-21_IdK:hover {
+  border-color: var(--hover-color);
+  color: var(--hover-color);
+}
