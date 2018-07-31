@@ -1275,3 +1275,33 @@ white-space: nowrap;
   background: rgba(0,0,0,0.4) !important;
   border-color: var(--main-color) !important;
 }
+
+/*thanks to Le Petit Taco*/
+
+/*Theming the Test Video Section with some Box Shadow Settings*/
+
+.theme-dark .userSettingsVoice-iwdUCU .previewOverlay-2O7_KC,
+.userSettingsVoice-iwdUCU .media-engine-video {
+    background-color: transparent;
+    border-color: var(--main-color);
+}
+
+.userSettingsVoice-iwdUCU .previewContainer-37c2Si {
+    box-shadow: 0 0 10px var(--main-color);
+}
+
+/*Overlay Notifications Section*/
+
+.selected-mKYnfr.option-n0icdO {
+  background-color: var(--main-color);
+  border-color: var(--main-color);
+
+}
+
+.wrapper-3jrx9n{
+  border: 2px solid var(--main-color);
+  box-shadow: 0 0 10px var(--main-color);
+}
+
+
+/*---------------------------------------------------*/
