@@ -1401,7 +1401,7 @@ input:focus {
   padding: 12px;
 }
 .search-bar.search-bar-light {
-  background-color: rgba(0,0,0,0.58);
+  background-color: transparent !important;
   color: #fff!important;
   border-radius: 3px;
 }
@@ -1509,6 +1509,19 @@ input:focus {
 }
 .scrollerThemed-2oenus.themeLight-1_DWyY.scrollerTrack-1ZIpsv>.scroller-2FKFPG::-webkit-scrollbar-track, .theme-dark .scrollerThemed-2oenus.themeLight-1_DWyY.scrollerTrack-1ZIpsv>.scroller-2FKFPG::-webkit-scrollbar-track, .theme-light .scrollerWrap-2lJEkd.scrollerTrack-1ZIpsv>.scroller-2FKFPG::-webkit-scrollbar-track {
   background-color: transparent !important;
+}
+
+.searchBarIcon-1J6sKG .icon-3cZ1F_ {
+  -webkit-transition: all .1s linear;
+  background-repeat: no-repeat;
+  height: 18px;
+  opacity: 0;
+  position: absolute;
+  right: -2px;
+  top: 4px;
+  transition: all .1s linear;
+  width: 18px;
+  z-index: 2;
 }
 /* end of emoji stuff */
 
