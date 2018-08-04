@@ -1591,6 +1591,6 @@ input:focus {
   text-align: center;
 }
 
-.newMessagesBar-mujexs, .jumpToPresentBar-9P20AM {
+.newMessagesBar-mujexs, [class*="theme-"] .jumpToPresentBar-9P20AM {
   background-color: var(--main-color);
 }
