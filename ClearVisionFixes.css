@@ -1544,3 +1544,32 @@ input:focus {
   border-radius: 15px !important;
   -webkit-border-radius: 15px !important;
 }
+.channelTextArea-1LDbYG.channelTextArea-rNsIhG {
+    padding-top: 0px;
+    box-shadow: 0 0 10px var(--main-color);
+    border-radius: 5px;
+    margin: 10px 0 30px;
+}
+[class*="theme-"] .chat-3bRxxu, .theme-dark .chat-3bRxxu form, .theme-dark .content-yTz4x3 {
+    background-color: transparent;
+}
+[class*="theme-"] .messagesWrapper-3lZDfY {
+    background-color: transparent;
+}
+[class*="theme-"] .divider-3gKybi:before {
+    background-color: transparent;
+}
+[class*="theme-"] .divider-3gKybi:not(.red-1YQ4s7) span {
+    color: var(--main-color);
+}
+
+[class*="theme-"] .divider-3gKybi span {
+    background-color: transparent;
+}
+[class*="theme-"] .divider-3gKybi.dividerRed-MKoLlr>div {
+    background: transparent;
+    opacity: .4;
+}
+[class*="theme-"] .divider-3gKybi.dividerRed-MKoLlr>span {
+    color: var(--main-color);
+}
