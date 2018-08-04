@@ -1574,8 +1574,8 @@ input:focus {
   border-top: 0px;
 }
 
-[class*="theme-"] .divider-3gKybi span, [class*="theme-"] .divider-3gKybi:before, [class*="theme-"] .divider-3gKybi div {
-  background-color: transparent;
+[class*="theme-"] .divider-3gKybi span, [class*="theme-"] .divider-3gKybi:before {
+  background-color: transparent !important;
 }
 
 [class*="theme-"] .divider-3gKybi:not(.dividerRed-MKoLlr) span {
