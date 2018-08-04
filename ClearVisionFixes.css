@@ -1249,7 +1249,7 @@ input.quickMessage-2XpSaN.quickMessage-1yeL4E {
   width: 2px;
 }
 
-.isMentionedCozy-3isp7y .mention:hover, span.wrapperHover-1GktnT.wrapper-3WhCwL.da-wrapperHover.da-wrapper:hover {
+.isMentionedCozy-3isp7y .mention:hover, span.wrapperHover-1GktnT.wrapper-3WhCwL:hover {
   cursor: pointer;
   color: #fff;
   background-color: var(--main-color) !important;
@@ -1304,12 +1304,12 @@ input.quickMessage-2XpSaN.quickMessage-1yeL4E {
   background-color: rgba(0, 0, 0, 0.45);
 }
 
-.wrapper-232cHJ.badge-1GsMF2.da-wrapper.da-badge {
+.wrapper-232cHJ.badge-1GsMF2 {
   -webkit-animation: badge 1s ease-in-out infinite alternate;
   animation: badge 1s ease-in-out infinite alternate;
 }
 
-.wrapper-232cHJ.badge-1GsMF2.da-wrapper.da-badge {
+.wrapper-232cHJ.badge-1GsMF2 {
   padding: 3px 5px;
   background-color: var(--main-color);
   -webkit-box-shadow: none;
@@ -1317,7 +1317,7 @@ input.quickMessage-2XpSaN.quickMessage-1yeL4E {
   font-weight: 600;
 }
 
-.selected-ML3OIq .guildInner-3DSoA4.da-guildInner .homeIcon-1FoKUJ {
+.selected-ML3OIq .guildInner-3DSoA4 .homeIcon-1FoKUJ {
   background-color: var(--main-color) !important;
 }
 
@@ -1346,7 +1346,7 @@ input.quickMessage-2XpSaN.quickMessage-1yeL4E {
   background: rgba(0, 0, 0, 0.5) !important;
 }
 
-.friendsOnline-_wi_fM.da-friendsOnline {
+.friendsOnline-_wi_fM {
   background: rgba(21, 21, 21, 0.41);
   border-radius: 25px;
   color: #DCDCDC;
