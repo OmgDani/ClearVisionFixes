@@ -1346,7 +1346,7 @@ input.quickMessage-2XpSaN.quickMessage-1yeL4E {
   background: rgba(0, 0, 0, 0.5) !important;
 }
 
-.friendsOnline-_wi_fM {
+[class*="theme-"] .friendsOnline-_wi_fM {
   background: rgba(21, 21, 21, 0.41);
   border-radius: 25px;
   color: #DCDCDC;
