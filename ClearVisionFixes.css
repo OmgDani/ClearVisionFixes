@@ -418,10 +418,6 @@ button.iconButtonStatic-2cPMA6.iconButton-3V4WS5.toggle-button.medium-2JR8YY:nth
   background-color: transparent;
 }
 
-.channels-Ie2l6A {
-  background-color: rgba(0, 0, 0, 0.6) !important;
-}
-
 [class*="theme-"] .title-3qD0b- {
   background-color: rgba(0, 0, 0, 0.75);
 }
@@ -439,7 +435,7 @@ button.iconButtonStatic-2cPMA6.iconButton-3V4WS5.toggle-button.medium-2JR8YY:nth
 }
 
 .typeMacOS-3EmCyP {
-  background-color: rgba(0, 0, 0, 0.6)
+  background-color: rgba(0, 0, 0, 0.35)
 }
 
 .popout-menu:not(.status-picker) {
@@ -514,7 +510,7 @@ DIV[class*="flex-"][class*="title-"], #friends DIV[class*="headerBar"] {
 }
 
 DIV[class*="channels"][class*="vertical"], DIV[class*="scroller"].channel-members {
-  background-color: rgba(0, 0, 0, .55) !Important;
+  background-color: rgba(0, 0, 0, .45) !Important;
 }
 
 DIV.flex-spacer.flex-horizontal, #friends DIV.friends-table {
@@ -1301,7 +1297,7 @@ input.quickMessage-2XpSaN.quickMessage-1yeL4E {
 /*---------------------------------------------------*/
 
 [class*="theme-"] .guildsWrapper-5TJh6A {
-  background-color: rgba(0, 0, 0, 0.45);
+  background-color: rgba(0, 0, 0, 0.35);
 }
 
 .wrapper-232cHJ.badge-1GsMF2 {
@@ -1561,8 +1557,12 @@ input:focus {
   -webkit-border-radius: 15px !important;
 }
 
-[class*="theme-"] .chat-3bRxxu, [class*="theme-"] .content-yTz4x3 {
-  background-color: rgba(0, 0, 0, 0.5);
+[class*="theme-"] .chat-3bRxxu {
+  background-color: transparent;
+}
+
+[class*="theme-"] .content-yTz4x3 {
+  background: rgba(0, 0, 0, 0.65);
 }
 
 [class*="theme-"] .messagesWrapper-3lZDfY, .theme-dark .chat-3bRxxu form {
@@ -1593,4 +1593,8 @@ input:focus {
 
 .newMessagesBar-mujexs, [class*="theme-"] .jumpToPresentBar-9P20AM {
   background-color: var(--main-color);
+}
+
+.base-3dtUhz {
+    border-radius: 0px;
 }
