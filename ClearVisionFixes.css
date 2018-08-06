@@ -1602,3 +1602,12 @@ input:focus {
 .dividerRed-MKoLlr + .divider-3gKybi {
     display: none !important;
 }
+
+.theme-dark .button-mM-y8i:hover {
+    background-color: var(--hover-color);
+}
+
+.theme-dark .button-mM-y8i {
+    background: var(--main-color);
+    -webkit-mask-image: url(https://cdn.rawgit.com/OmgDani/ClearVisionFixes/master/Icons/X.svg);
+}
