@@ -1598,3 +1598,7 @@ input:focus {
 .base-3dtUhz {
     border-radius: 0px;
 }
+
+.dividerRed-MKoLlr + .divider-3gKybi {
+    display: none !important;
+}
