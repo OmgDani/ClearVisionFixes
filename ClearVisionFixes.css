@@ -1596,18 +1596,46 @@ input:focus {
 }
 
 .base-3dtUhz {
-    border-radius: 0px;
+  border-radius: 0px;
 }
 
-.dividerRed-MKoLlr + .divider-3gKybi {
-    display: none !important;
+.dividerRed-MKoLlr+.divider-3gKybi {
+  display: none !important;
 }
 
-.theme-dark .button-mM-y8i:hover {
+[class*="theme-"] .button-mM-y8i:hover {
+  background-color: var(--hover-color);
+}
+
+[class*="theme-"] .button-mM-y8i {
+  background: var(--main-color);
+  -webkit-mask-image: url(https://cdn.rawgit.com/OmgDani/ClearVisionFixes/master/Icons/X.svg);
+}
+
+[class*="theme-"] .jumpButton-3DTcS_ {
+  background-color: var(--main-color)
+}
+
+[class*="theme-"] .messageGroupWrapper-o-Zw7G:hover .actionButtons-1sUUug {
+  -webkit-box-shadow: none;
+  background-color: transparent;
+  box-shadow: none;
+}
+
+[class*="theme-"] .jumpButton-3DTcS_:hover {
+  background-color: var(--hover-color);
+}
+
+[class*="theme-"] .hasMore-3e72_v button {
+    background-color: var(--main-color);
+    border: transparent;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+[class*="theme-"] .hasMore-3e72_v:hover button {
     background-color: var(--hover-color);
 }
 
-.theme-dark .button-mM-y8i {
-    background: var(--main-color);
-    -webkit-mask-image: url(https://cdn.rawgit.com/OmgDani/ClearVisionFixes/master/Icons/X.svg);
+[class*="theme-"] .jumpToPresentBar-9P20AM:hover {
+    background-color: var(--hover-color);
 }
