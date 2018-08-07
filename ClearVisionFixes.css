@@ -1212,7 +1212,7 @@ input.quickMessage-2XpSaN.quickMessage-1yeL4E {
 
 [class*="theme-"] .markup-2BOw-j code, [class*="theme-"] .markup-2BOw-j code.inline {
   color: hsla(0, 0%, 100%, .7) !important;
-  background: transparent !important;
+  background: hsla(0, 0%, 100%, 0.1) !important;
 }
 
 [class*="theme-"] .markup-2BOw-j pre {
