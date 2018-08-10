@@ -1639,3 +1639,12 @@ input:focus {
 [class*="theme-"] .jumpToPresentBar-9P20AM:hover {
     background-color: var(--hover-color);
 }
+
+.mediaBarGrabber-1FqnbN, .mediaBarProgress-1xaPtl, .mediaBarProgress-1xaPtl:after, .mediaBarProgress-1xaPtl:before {
+    background-color: var(--main-color);
+}
+
+.mask-3OgeRz {
+    mask: none;
+    -webkit-mask: none;
+}
