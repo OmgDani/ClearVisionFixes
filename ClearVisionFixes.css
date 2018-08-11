@@ -1656,3 +1656,7 @@ input:focus {
 [class*="theme-"] .gameLibrary-TTDw4Y {
   background: transparent;
 }
+
+[class*="theme-"] .guildsError-3cFMtY {
+  background: rgba(0, 0, 0, 0.5);
+}
