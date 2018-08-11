@@ -1627,24 +1627,32 @@ input:focus {
 }
 
 [class*="theme-"] .hasMore-3e72_v button {
-    background-color: var(--main-color);
-    border: transparent;
-    color: rgba(255, 255, 255, 0.8);
+  background-color: var(--main-color);
+  border: transparent;
+  color: rgba(255, 255, 255, 0.8);
 }
 
 [class*="theme-"] .hasMore-3e72_v:hover button {
-    background-color: var(--hover-color);
+  background-color: var(--hover-color);
 }
 
 [class*="theme-"] .jumpToPresentBar-9P20AM:hover {
-    background-color: var(--hover-color);
+  background-color: var(--hover-color);
 }
 
 .mediaBarGrabber-1FqnbN, .mediaBarProgress-1xaPtl, .mediaBarProgress-1xaPtl:after, .mediaBarProgress-1xaPtl:before {
-    background-color: var(--main-color);
+  background-color: var(--main-color);
 }
 
 .mask-3OgeRz {
-    mask: none;
-    -webkit-mask: none;
+  mask: none;
+  -webkit-mask: none;
+}
+
+[class*="theme-"] .headerBar-UHpsPw {
+  background: transparent;
+}
+
+[class*="theme-"] .gameLibrary-TTDw4Y {
+  background: transparent;
 }
