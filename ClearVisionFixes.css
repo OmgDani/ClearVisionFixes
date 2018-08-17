@@ -537,6 +537,7 @@ DIV.flex-spacer.flex-horizontal, #friends DIV.friends-table {
 
 .container-1UB9sr {
   background: transparent;
+  border-bottom: transparent;
 }
 
 .quick-message.isBlocked {
@@ -1551,11 +1552,6 @@ input:focus {
 .popout-3sVMXz {
   box-shadow: none !important;
   -webkit-box-shadow: none !important;
-}
-
-[class*="userPopout-"]::before {
-  border-radius: 15px !important;
-  -webkit-border-radius: 15px !important;
 }
 
 [class*="theme-"] .chat-3bRxxu {
