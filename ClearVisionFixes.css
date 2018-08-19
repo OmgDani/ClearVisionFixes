@@ -1024,19 +1024,23 @@ input.quickMessage-2XpSaN.quickMessage-1yeL4E {
   background: url(https://cdn.rawgit.com/Zerthox/ClearVision/master/icons/link.svg) !important;
 }
 
-.platform-win [layer-id="user-settings"] .ui-standard-sidebar-view .sidebar-region .sidebar-region-scroller .sidebar>*>[class*="item"]:nth-child(11)::after {
+[layer-id="user-settings"] .ui-standard-sidebar-view .sidebar-region .sidebar-region-scroller .sidebar>*>[class*="item"]:nth-child(6)::after {
+  background: url(https://cdn.rawgit.com/OmgDani/ClearVisionFixes/master/Icons/Credit_card.svg) !important;
+}
+
+.platform-win [layer-id="user-settings"] .ui-standard-sidebar-view .sidebar-region .sidebar-region-scroller .sidebar>*>[class*="item"]:nth-child(13)::after {
   background: url(https://cdn.rawgit.com/OmgDani/ClearVisionFixes/master/Icons/open_in_new.svg);
 }
 
-.platform-win [layer-id="user-settings"] .ui-standard-sidebar-view .sidebar-region .sidebar-region-scroller .sidebar>*>[class*="item"]:nth-child(19)::after {
+.platform-win [layer-id="user-settings"] .ui-standard-sidebar-view .sidebar-region .sidebar-region-scroller .sidebar>*>[class*="item"]:nth-child(21)::after {
   background: url(https://cdn.rawgit.com/Zerthox/ClearVision/master/icons/desktop_windows.svg);
 }
 
-.platform-win [layer-id="user-settings"] .ui-standard-sidebar-view .sidebar-region .sidebar-region-scroller .sidebar>*>[class*="item"]:nth-child(24)::after {
+.platform-win [layer-id="user-settings"] .ui-standard-sidebar-view .sidebar-region .sidebar-region-scroller .sidebar>*>[class*="item"]:nth-child(26)::after {
   background: url(https://cdn.rawgit.com/Zerthox/ClearVision/master/icons/exit.svg) !important;
 }
 
-.platform-osx [layer-id="user-settings"] .ui-standard-sidebar-view .sidebar-region .sidebar-region-scroller .sidebar>*>[class*="item"]:nth-child(22)::after {
+.platform-osx [layer-id="user-settings"] .ui-standard-sidebar-view .sidebar-region .sidebar-region-scroller .sidebar>*>[class*="item"]:nth-child(24)::after {
   background: url(https://cdn.rawgit.com/Zerthox/ClearVision/master/icons/exit.svg) !important;
 }
 
@@ -1656,4 +1660,8 @@ input:focus {
 
 [class*="theme-"] .guildsError-3cFMtY {
   background: rgba(0, 0, 0, 0.5);
+}
+
+.privateChannels-1nO12o .channel-2fhmY8:hover .selectedLink-3dsNZ6 {
+    background: var(--main-color);
 }
