@@ -1710,3 +1710,7 @@ input:focus {
 .newMessagesBar-mujexs:hover {
   background-color: var(--hover-color);
 }
+
+.newMessagesBar-mujexs button:last-child {
+  color: #fff
+}
