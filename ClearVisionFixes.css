@@ -1048,41 +1048,40 @@ input.quickMessage-2XpSaN.quickMessage-1yeL4E {
   background: url(https://cdn.rawgit.com/Zerthox/ClearVision/master/icons/history.svg) !important;
 }
 
-[layer-id="user-settings"] .ui-standard-sidebar-view .sidebar-region .sidebar-region-scroller .sidebar > * > [class*="item"]:nth-child(12)::after {
-    background: url(https://cdn.rawgit.com/Zerthox/ClearVision/master/icons/mic.svg) !important;
+[layer-id="user-settings"] .ui-standard-sidebar-view .sidebar-region .sidebar-region-scroller .sidebar>*>[class*="item"]:nth-child(12)::after {
+  background: url(https://cdn.rawgit.com/Zerthox/ClearVision/master/icons/mic.svg) !important;
 }
 
-.platform-win [layer-id="user-settings"] .ui-standard-sidebar-view .sidebar-region .sidebar-region-scroller .sidebar > * > [class*="item"]:nth-child(14)::after,
-.platform-osx [layer-id="user-settings"] .ui-standard-sidebar-view .sidebar-region .sidebar-region-scroller .sidebar > * > [class*="item"]:nth-child(13)::after {
-    background: url(https://cdn.rawgit.com/Zerthox/ClearVision/master/icons/notifications.svg) !important;
+.platform-win [layer-id="user-settings"] .ui-standard-sidebar-view .sidebar-region .sidebar-region-scroller .sidebar>*>[class*="item"]:nth-child(14)::after, .platform-osx [layer-id="user-settings"] .ui-standard-sidebar-view .sidebar-region .sidebar-region-scroller .sidebar>*>[class*="item"]:nth-child(13)::after {
+  background: url(https://cdn.rawgit.com/Zerthox/ClearVision/master/icons/notifications.svg) !important;
 }
-.platform-win [layer-id="user-settings"] .ui-standard-sidebar-view .sidebar-region .sidebar-region-scroller .sidebar > * > [class*="item"]:nth-child(15)::after,
-.platform-osx [layer-id="user-settings"] .ui-standard-sidebar-view .sidebar-region .sidebar-region-scroller .sidebar > * > [class*="item"]:nth-child(14)::after {
-    background: url(https://cdn.rawgit.com/Zerthox/ClearVision/master/icons/keyboard.svg) !important;
+
+.platform-win [layer-id="user-settings"] .ui-standard-sidebar-view .sidebar-region .sidebar-region-scroller .sidebar>*>[class*="item"]:nth-child(15)::after, .platform-osx [layer-id="user-settings"] .ui-standard-sidebar-view .sidebar-region .sidebar-region-scroller .sidebar>*>[class*="item"]:nth-child(14)::after {
+  background: url(https://cdn.rawgit.com/Zerthox/ClearVision/master/icons/keyboard.svg) !important;
 }
-.platform-win [layer-id="user-settings"] .ui-standard-sidebar-view .sidebar-region .sidebar-region-scroller .sidebar > * > [class*="item"]:nth-child(16)::after,
-.platform-osx [layer-id="user-settings"] .ui-standard-sidebar-view .sidebar-region .sidebar-region-scroller .sidebar > * > [class*="item"]:nth-child(15)::after {
-    background: url(https://cdn.rawgit.com/Zerthox/ClearVision/master/icons/games.svg) !important;
+
+.platform-win [layer-id="user-settings"] .ui-standard-sidebar-view .sidebar-region .sidebar-region-scroller .sidebar>*>[class*="item"]:nth-child(16)::after, .platform-osx [layer-id="user-settings"] .ui-standard-sidebar-view .sidebar-region .sidebar-region-scroller .sidebar>*>[class*="item"]:nth-child(15)::after {
+  background: url(https://cdn.rawgit.com/Zerthox/ClearVision/master/icons/games.svg) !important;
 }
-.platform-win [layer-id="user-settings"] .ui-standard-sidebar-view .sidebar-region .sidebar-region-scroller .sidebar > * > [class*="item"]:nth-child(17)::after,
-.platform-osx [layer-id="user-settings"] .ui-standard-sidebar-view .sidebar-region .sidebar-region-scroller .sidebar > * > [class*="item"]:nth-child(16)::after {
-    background: url(https://cdn.rawgit.com/Zerthox/ClearVision/master/icons/chat.svg) !important;
+
+.platform-win [layer-id="user-settings"] .ui-standard-sidebar-view .sidebar-region .sidebar-region-scroller .sidebar>*>[class*="item"]:nth-child(17)::after, .platform-osx [layer-id="user-settings"] .ui-standard-sidebar-view .sidebar-region .sidebar-region-scroller .sidebar>*>[class*="item"]:nth-child(16)::after {
+  background: url(https://cdn.rawgit.com/Zerthox/ClearVision/master/icons/chat.svg) !important;
 }
-.platform-win [layer-id="user-settings"] .ui-standard-sidebar-view .sidebar-region .sidebar-region-scroller .sidebar > * > [class*="item"]:nth-child(18)::after,
-.platform-osx [layer-id="user-settings"] .ui-standard-sidebar-view .sidebar-region .sidebar-region-scroller .sidebar > * > [class*="item"]:nth-child(17)::after {
-    background: url(https://cdn.rawgit.com/Zerthox/ClearVision/master/icons/camera.svg) !important;
+
+.platform-win [layer-id="user-settings"] .ui-standard-sidebar-view .sidebar-region .sidebar-region-scroller .sidebar>*>[class*="item"]:nth-child(18)::after, .platform-osx [layer-id="user-settings"] .ui-standard-sidebar-view .sidebar-region .sidebar-region-scroller .sidebar>*>[class*="item"]:nth-child(17)::after {
+  background: url(https://cdn.rawgit.com/Zerthox/ClearVision/master/icons/camera.svg) !important;
 }
-.platform-win [layer-id="user-settings"] .ui-standard-sidebar-view .sidebar-region .sidebar-region-scroller .sidebar > * > [class*="item"]:nth-child(19)::after,
-.platform-osx [layer-id="user-settings"] .ui-standard-sidebar-view .sidebar-region .sidebar-region-scroller .sidebar > * > [class*="item"]:nth-child(18)::after {
-    background: url(https://cdn.rawgit.com/Zerthox/ClearVision/master/icons/videocam.svg) !important;
+
+.platform-win [layer-id="user-settings"] .ui-standard-sidebar-view .sidebar-region .sidebar-region-scroller .sidebar>*>[class*="item"]:nth-child(19)::after, .platform-osx [layer-id="user-settings"] .ui-standard-sidebar-view .sidebar-region .sidebar-region-scroller .sidebar>*>[class*="item"]:nth-child(18)::after {
+  background: url(https://cdn.rawgit.com/Zerthox/ClearVision/master/icons/videocam.svg) !important;
 }
-.platform-win [layer-id="user-settings"] .ui-standard-sidebar-view .sidebar-region .sidebar-region-scroller .sidebar > * > [class*="item"]:nth-child(20)::after,
-.platform-osx [layer-id="user-settings"] .ui-standard-sidebar-view .sidebar-region .sidebar-region-scroller .sidebar > * > [class*="item"]:nth-child(19)::after {
-    background: url(https://cdn.rawgit.com/Zerthox/ClearVision/master/icons/language.svg) !important;
+
+.platform-win [layer-id="user-settings"] .ui-standard-sidebar-view .sidebar-region .sidebar-region-scroller .sidebar>*>[class*="item"]:nth-child(20)::after, .platform-osx [layer-id="user-settings"] .ui-standard-sidebar-view .sidebar-region .sidebar-region-scroller .sidebar>*>[class*="item"]:nth-child(19)::after {
+  background: url(https://cdn.rawgit.com/Zerthox/ClearVision/master/icons/language.svg) !important;
 }
-.platform-win [layer-id="user-settings"] .ui-standard-sidebar-view .sidebar-region .sidebar-region-scroller .sidebar > * > [class*="item"]:nth-child(23)::after,
-.platform-osx [layer-id="user-settings"] .ui-standard-sidebar-view .sidebar-region .sidebar-region-scroller .sidebar > * > [class*="item"]:nth-child(22)::after {
-    background: url(https://cdn.rawgit.com/Zerthox/ClearVision/master/icons/history.svg) !important;
+
+.platform-win [layer-id="user-settings"] .ui-standard-sidebar-view .sidebar-region .sidebar-region-scroller .sidebar>*>[class*="item"]:nth-child(23)::after, .platform-osx [layer-id="user-settings"] .ui-standard-sidebar-view .sidebar-region .sidebar-region-scroller .sidebar>*>[class*="item"]:nth-child(22)::after {
+  background: url(https://cdn.rawgit.com/Zerthox/ClearVision/master/icons/history.svg) !important;
 }
 
 #bd-settings-sidebar .ui-tab-bar-item:nth-child(3)::after {
@@ -1700,5 +1699,14 @@ input:focus {
 }
 
 .privateChannels-1nO12o .channel-2fhmY8:hover .selectedLink-3dsNZ6 {
-    background: var(--main-color);
+  background: var(--main-color);
+}
+
+[class*="theme-"] .wrapper-29NfPK.minimum-2d6zH6 .actions-2vadYq .center-1Vp33r {
+  background-color: rgba(0, 0, 0, 0.6);
+  border-color: transparent;
+}
+
+.newMessagesBar-mujexs:hover {
+  background-color: var(--hover-color);
 }
