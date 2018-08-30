@@ -1112,7 +1112,7 @@ input.quickMessage-2XpSaN.quickMessage-1yeL4E {
   background-color: transparent;
 }
 
-[class*="theme-"] .member-3W1lQa:hover .content-OzHfo4, .contentHoveredText-2D9B-x {
+[class*="theme-"] .member-3W1lQa:hover .content-OzHfo4 {
   background: hsla(216, 4%, 74%, .1);
 }
 
@@ -1713,4 +1713,8 @@ input:focus {
 
 .newMessagesBar-mujexs button:last-child {
   color: #fff
+}
+
+.contentConnectedVoice-qL-YrL:active, .contentHoveredText-2D9B-x, .contentHoveredVoice-3p_NEO:active, .contentSelectedVoice-1WDIBM:active, .contentHoveredVoice-3p_NEO {
+  background: hsla(216, 4%, 74%, .1) !important;
 }
