@@ -580,7 +580,8 @@ DIV.flex-spacer.flex-horizontal, #friends DIV.friends-table {
   background-position: center;
   -webkit-filter: blur(3px);
   filter: blur(3px);
-  overflow: hidden
+  overflow: hidden;
+  border-radius: 8px;
 }
 
 [class*="theme-"] [class*="topSectionNormal-"], [class*="theme-"] .body-3ND3kc {
@@ -1717,4 +1718,20 @@ input:focus {
 
 .contentConnectedVoice-qL-YrL:active, .contentHoveredText-2D9B-x, .contentHoveredVoice-3p_NEO:active, .contentSelectedVoice-1WDIBM:active, .contentHoveredVoice-3p_NEO {
   background: hsla(216, 4%, 74%, .1) !important;
+}
+
+[class*="theme-"] .callAvatar-v-u4BM.voice-2D-tt_ .callAvatarStatus-3y6S04 {
+  border-color: transparent;
+}
+
+.channel-2QD9_O path {
+  color: white;
+}
+
+.channel-2QD9_O:hover a {
+  background: hsla(216, 4%, 74%, .1);
+}
+
+.channel-2QD9_O.selected-1HYmZZ a {
+  background-color: var(--main-color);
 }
