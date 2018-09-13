@@ -1735,3 +1735,7 @@ input:focus {
 .channel-2QD9_O.selected-1HYmZZ a {
   background-color: var(--main-color);
 }
+
+.channel-2QD9_O .status {
+    border: transparent;
+}
