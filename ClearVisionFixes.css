@@ -1737,5 +1737,77 @@ input:focus {
 }
 
 .channel-2QD9_O .status {
-    border: transparent;
+  border: transparent;
+}
+
+[class*="theme-"] .popout-2sKjHu {
+    background: rgba(0,0,0,0.7);
+}
+
+[class*="theme-"] .applicationStore-1pNvnv {
+  background-color: transparent;
+}
+
+@media (min-width: 980px) {
+  [class*="theme-"] .itemBackground-1jfD8p:before {
+    background: rgba(0, 0, 0, 0.6);
+  }
+}
+
+@media (min-width: 980px) {
+  .paginationContainer-1b6TFc {
+    bottom: -50px;
+  }
+}
+
+[class*="theme-"] .overlappingBorder-1ysb12 {
+  border-color: var(--main-color);
+}
+
+.arrow-2ZP1wS polygon {
+  fill: var(--main-color);
+}
+
+[class*="theme-"] .distributionApplicationsActions-3D2_kD, [class*="theme-"] .premiumApplicationsHeader-Zmkm5e {
+  border-color: transparent;
+}
+
+[class*="theme-"] .selectedSort-2JSohJ {
+  border-color: var(--main-color);
+  color: var(--main-color);
+}
+
+.distributionApplicationsSort-2_uq5y:hover {
+  color: var(--hover-color);
+}
+
+[class*="theme-"] .tile-2H4MQG {
+  background-color: var(--main-color);
+}
+
+[class*="theme-"] .tile-2H4MQG:hover {
+  background-color: var(--hover-color);
+}
+
+.distributionApplicationsSort-2_uq5y, .selectedSort-2JSohJ {
+  opacity: 1;
+}
+
+.distributionApplicationsSort-2_uq5y:hover {
+  color: var(--hover-color);
+}
+
+.viewAllGames-3LNpt1, .viewAllNitroGames-3v3cAi {
+  color: var(--main-color);
+}
+
+.viewAllGames-3LNpt1:hover, .viewAllNitroGames-3v3cAi:hover {
+  color: var(--hover-color);
+}
+
+[class*="theme-"] .sortFilterBar-3hePOV {
+    border-color: transparent;
+}
+[class*="theme-"] .purchaseUnitOperatingSystem-cnbJPz {
+    color: white;
 }
