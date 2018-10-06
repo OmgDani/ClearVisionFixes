@@ -1741,7 +1741,7 @@ input:focus {
 }
 
 [class*="theme-"] .popout-2sKjHu {
-    background: rgba(0,0,0,0.7) !important;
+  background: rgba(0, 0, 0, 0.7) !important;
 }
 
 [class*="theme-"] .applicationStore-1pNvnv {
@@ -1806,8 +1806,24 @@ input:focus {
 }
 
 [class*="theme-"] .sortFilterBar-3hePOV {
-    border-color: transparent;
+  border-color: transparent;
 }
+
 [class*="theme-"] .purchaseUnitOperatingSystem-cnbJPz {
-    color: white;
+  color: white;
+}
+
+[class*="theme-"] .searchBox-3Y2Vi7 {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+[class*="theme-"] .divider-3gKybi:not(.dividerRed-MKoLlr) .dividerContent-2L12VI:after, [class*="theme-"] .divider-3gKybi:not(.dividerRed-MKoLlr) .dividerContent-2L12VI:before {
+  border-color: transparent;
+}
+[class*="theme-"] .divider-3gKybi:not(.dividerRed-MKoLlr) .dividerContent-2L12VI {
+  color: #fff !important;
+}
+
+.theme-dark .container-3ayLPN {
+    background-color: rgba(0,0,0,.65);
 }
