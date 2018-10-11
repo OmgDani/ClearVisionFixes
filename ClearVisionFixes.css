@@ -1836,3 +1836,12 @@ input:focus {
 [class*="theme-"] .option-96V44q:after {
     display: none;
 }
+
+[class*="theme-"] .focused-2bY0OD {
+    background-color: rgba(0,0,0,0.6);
+}
+
+[class*="theme-"] .queryContainer-RKFJW- {
+    border-bottom-color: transparent;
+    color: #b9bbbe;
+}
