@@ -1820,10 +1820,19 @@ input:focus {
 [class*="theme-"] .divider-3gKybi:not(.dividerRed-MKoLlr) .dividerContent-2L12VI:after, [class*="theme-"] .divider-3gKybi:not(.dividerRed-MKoLlr) .dividerContent-2L12VI:before {
   border-color: transparent;
 }
+
 [class*="theme-"] .divider-3gKybi:not(.dividerRed-MKoLlr) .dividerContent-2L12VI {
   color: #fff !important;
 }
 
 .theme-dark .container-3ayLPN {
     background-color: rgba(0,0,0,.65);
+}
+
+[class*="theme-"] .option-96V44q.selected-rZcOL-:after {
+    display: none;
+}
+
+[class*="theme-"] .option-96V44q:after {
+    display: none;
 }
