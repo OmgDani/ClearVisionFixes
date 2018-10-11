@@ -1825,8 +1825,8 @@ input:focus {
   color: #fff !important;
 }
 
-.theme-dark .container-3ayLPN {
-    background-color: rgba(0,0,0,.65);
+[class*="theme-"] .container-3ayLPN {
+    background-color: rgba(0,0,0,.9); /* Having this darker makes it so we can see all options if the theme is light */
 }
 
 [class*="theme-"] .option-96V44q.selected-rZcOL-:after {
@@ -1838,7 +1838,7 @@ input:focus {
 }
 
 [class*="theme-"] .focused-2bY0OD {
-    background-color: rgba(0,0,0,0.6);
+    background-color: transparent;
 }
 
 [class*="theme-"] .queryContainer-RKFJW- {
