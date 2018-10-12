@@ -1840,3 +1840,7 @@ input:focus {
 .channelNotices-41mJbj .channelNotice-1-XFjC .message-3SOT5P .btn-11C5_u:hover {
   background-color: var(--hover-color);
 }
+
+[class*="theme-"] .option-96V44q:after {
+    background: transparent;
+}
