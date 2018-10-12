@@ -1820,10 +1820,23 @@ input:focus {
 [class*="theme-"] .divider-3gKybi:not(.dividerRed-MKoLlr) .dividerContent-2L12VI:after, [class*="theme-"] .divider-3gKybi:not(.dividerRed-MKoLlr) .dividerContent-2L12VI:before {
   border-color: transparent;
 }
+
 [class*="theme-"] .divider-3gKybi:not(.dividerRed-MKoLlr) .dividerContent-2L12VI {
   color: #fff !important;
 }
 
 .theme-dark .container-3ayLPN {
-    background-color: rgba(0,0,0,.65);
+  background-color: rgba(0, 0, 0, .65);
+}
+
+.channelNotices-41mJbj .channelNotice-1-XFjC.quickswitcher-35bYg4 {
+  background-color: transparent;
+}
+
+.channelNotices-41mJbj .channelNotice-1-XFjC .message-3SOT5P .btn-11C5_u {
+  background-color: var(--main-color);
+}
+
+.channelNotices-41mJbj .channelNotice-1-XFjC .message-3SOT5P .btn-11C5_u:hover {
+  background-color: var(--hover-color);
 }
