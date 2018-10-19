@@ -1825,7 +1825,7 @@ input:focus {
   color: #fff !important;
 }
 
-.theme-dark .container-3ayLPN {
+[class*="theme-"] .container-3ayLPN {
   background-color: rgba(0, 0, 0, .65);
 }
 
@@ -1843,4 +1843,27 @@ input:focus {
 
 [class*="theme-"] .option-96V44q:after {
     background: transparent;
+}
+
+.ui-standard-sidebar-view .sidebar-region .sidebar {
+    overflow: auto;
+    height: 100%;
+}
+
+.ui-standard-sidebar-view .sidebar-region .sidebar::-webkit-scrollbar-thumb {
+    visibility: hidden;
+}
+
+.ui-standard-sidebar-view .sidebar-region .sidebar:hover::-webkit-scrollbar-thumb {
+    visibility: visible;
+    margin-top: 10px;
+}
+
+.ui-standard-sidebar-view .sidebar-region .sidebar:hover::-webkit-scrollbar {
+    width: 8px;
+}
+
+.ui-standard-sidebar-view .sidebar-region .sidebar::-webkit-scrollbar-track-piece {
+    margin-top: 5%;
+    margin-bottom: 5%;
 }
