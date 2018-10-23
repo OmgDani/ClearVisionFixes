@@ -1867,3 +1867,11 @@ input:focus {
     margin-top: 5%;
     margin-bottom: 5%;
 }
+
+[class*="theme-"] .standardSidebarView-3F1I7i, [class*="theme-"] .sidebarRegion-VFTUkN, [class*="theme-"] .contentRegion-3nDuYy {
+    background: transparent;
+}
+
+.side-8zPYf6 .itemSelected-1qLhcL {
+    background-color: var(--main-color);
+}
