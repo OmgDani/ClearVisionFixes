@@ -1875,3 +1875,28 @@ input:focus {
 .side-8zPYf6 .itemSelected-1qLhcL {
     background-color: var(--main-color);
 }
+
+/* BLOCKED MESSAGES */
+.messageGroupBlocked-3wrQQX.messageGroupBlocked-JqfeE2,
+.messageGroupBlocked-3wrQQX .messageGroupBlockedBtn-1PBBh- {
+    background: transparent !important;
+    border-color: transparent !important;
+}
+.messageGroupBlocked-3wrQQX.messageGroupBlocked-JqfeE2 {
+    border-top: 1px solid hsla(0, 0%, 100%, .04) !important;
+    border-bottom: 1px solid hsla(0, 0%, 100%, .04) !important;
+}
+.messageGroupBlocked-3wrQQX .messageGroupBlockedBtn-1PBBh- {
+    color: hsla(0, 0%, 100%, .3) !important;
+    -wekbit-transition: color .3s ease-in-out;
+    transition: color .3s ease-in-out;
+}
+.messageGroupBlocked-3wrQQX.revealed-1_RKsf .messageGroupBlockedBtn-1PBBh- {
+    color: hsla(0, 0%, 100%, .7) !important;
+}
+.messageGroupBlocked-3wrQQX .containerCozyBounded-1rKFAn {
+    margin-top: -20px;
+    -webkit-animation: blocked-message .3s ease-in-out;
+    animation: blocked-message .3s ease-in-out;
+}
+/*  */
