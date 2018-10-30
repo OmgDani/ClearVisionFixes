@@ -1045,6 +1045,11 @@ input.quickMessage-2XpSaN.quickMessage-1yeL4E {
   background: url(https://discordapp.com/assets/df0e29b16d71bdad333880b2488075be.svg) !important;
 }
 
+[layer-id="user-settings"] .standardSidebarView-3F1I7i .sidebarRegion-VFTUkN .sidebarRegionScroller-3MXcoP .sidebar-CFHs9e>*>[class*="item"]:nth-child(9)::after {
+    background-image: url(https://discordapp.com/assets/6c73f47daf179ffade99f501bfc5101b.svg) !important;
+    background-size: cover;
+}
+
 .platform-win [layer-id="user-settings"] .standardSidebarView-3F1I7i .sidebarRegion-VFTUkN .sidebarRegionScroller-3MXcoP .sidebar-CFHs9e>*>[class*="item"]:nth-child(13)::after {
   background: url(https://cdn.rawgit.com/OmgDani/ClearVisionFixes/master/Icons/open_in_new.svg) !important;
 }
@@ -1897,3 +1902,41 @@ input:focus {
 .lookInverted-2D7oAl.colorGreen-29iAKY:hover {
   background: var(--hover-color);
 }
+
+/* Bravery */
+.profileBadgeHypeSquadOnlineHouse1-xN6tES{
+  background-image: url(https://discordapp.com/assets/64ae1208b6aefc0a0c3681e6be36f0ff.svg) !important;
+}
+/* Brilliance */
+.profileBadgeHypeSquadOnlineHouse2-3jBpXR {
+  background-image: url(https://discordapp.com/assets/48cf0556d93901c8cb16317be2436523.svg) !important;
+}
+/* Balance */
+.profileBadgeHypeSquadOnlineHouse3-1YbjMX {
+  background-image: url(https://discordapp.com/assets/9fdc63ef8a3cc1617c7586286c34e4f1.svg) !important;
+}
+/* Events */
+.profileBadgeHypesquad-1YIe7Z {
+    background-image: url(https://discordapp.com/assets/6c73f47daf179ffade99f501bfc5101b.svg) !important;
+}
+/* Early supporter */
+.profileBadgeEarlySupporter-PQB_0a{
+  background-image: url(https://discordapp.com/assets/23e59d799436a73c024819f84ea0b627.svg) !important;
+}
+/* Nitro */
+.profileBadgePremium-3kZ9Qj{
+  background-image: url(https://discordapp.com/assets/386884eecd36164487505ddfbac35a9d.svg) !important;
+}
+/* Discord Staff */
+.profileBadgeStaff-13GO7z {
+    background-image: url(https://discordapp.com/assets/4358ad1fb423b346324516453750f569.svg) !important;
+}
+/* Discord Partner */
+.profileBadgePartner-SjK6L2 {
+    background-image: url(https://discordapp.com/assets/33fedf082addb91d88abc272b4b18daa.svg) !important;
+}
+/* Bug Hunter */
+.profileBadgeBugHunter-IV0vLE {
+    background-image: url(https://discordapp.com/assets/f61b8981e92feead854f52e5a1ba14f0.svg) !important;
+}
+/* Yes i know its obvious what each one is, but the hypesquad houses arent and then continuity u know */
