@@ -1794,12 +1794,8 @@ input:focus {
   color: var(--hover-color);
 }
 
-[class*="theme-"] .tile-2H4MQG {
-  background-color: var(--main-color);
-}
-
-[class*="theme-"] .tile-2H4MQG:hover {
-  background-color: var(--hover-color);
+[class*="theme-"] .header-39GIC8 {
+    background: rgba(0,0,0,0.6);
 }
 
 .distributionApplicationsSort-2_uq5y, .selectedSort-2JSohJ {
