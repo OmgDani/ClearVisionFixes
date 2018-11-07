@@ -144,11 +144,11 @@
 }
 
 .instant-invite-modal DIV[class*="form"] {
-  background: rgba(0, 0, 0, 0.7) !Important;
+  background: rgba(0, 0, 0, 0.7) !important;
 }
 
 [class*="modal"] [class*="sizeSmall"] [class*="footer"] BUTTON[type="button"] {
-  background-color: rgba(0, 0, 0, .5) !Important;
+  background-color: rgba(0, 0, 0, .5) !important;
 }
 
 [class*="modal"][class*="modal"][class*="size"],
@@ -158,7 +158,7 @@
 }
 
 input {
-  border-width: 2px !Important;
+  border-width: 2px !important;
 }
 
 input:focus {
@@ -176,12 +176,12 @@ input:focus {
 }
 
 #help-query {
-  border: none !Important;
+  border: none !important;
   box-shadow: none !important;
 }
 
 #help-query:focus {
-  color: white !Important;
+  color: white !important;
 }
 
 .radio .radio-inner {
@@ -195,8 +195,8 @@ input:focus {
 
 .content-column [class*="checkbox"] {
   background-color: rgba(0, 0, 0, .32) !important;
-  border-width: 2px !Important;
-  border-color: var(--main-color) !Important;
+  border-width: 2px !important;
+  border-color: var(--main-color) !important;
 }
 
 .content-column [class*="checkbox"] [class*="focused"] {
@@ -204,7 +204,7 @@ input:focus {
 }
 
 [class*="checkbox"] [class*="checked"] polyline {
-  stroke: var(--main-color) !Important;
+  stroke: var(--main-color) !important;
 }
 
 .layer[layer-id="server-settings"] [class*="card"]:first-child:hover [class*="checkbox"][class*="checked"] polyline,
@@ -273,20 +273,20 @@ input:focus {
 
 .content-column [class*="grabber"] {
   background-color: var(--main-color) !important;
-  border-radius: 10px !Important;
-  border-style: none !Important;
+  border-radius: 10px !important;
+  border-style: none !important;
   margin-top: -9px !important;
 }
 
 .content-column [class*="grabber"],
 DIV.slider-handle {
   height: 18px !important;
-  width: 18px !Important;
+  width: 18px !important;
 }
 
 [class*="modal"] FORM[class*="modal"][class*="container"][class*="sizeSmall"] [class*="message"] {
   background-color: transparent !important;
-  box-shadow: none !Important;
+  box-shadow: none !important;
 }
 
 .tooltip.tooltip-top,
@@ -535,42 +535,42 @@ button.iconButtonStatic-2cPMA6.iconButton-3V4WS5.toggle-button.medium-2JR8YY:nth
 DIV.guilds-wrapper .scroller-wrap,
 DIV.content .flex-spacer.flex-vertical,
 .theme-light DIV[class*="scroller"].channel-members {
-  background-color: transparent !Important;
+  background-color: transparent !important;
 }
 
 DIV[class*="flex-"][class*="title-"],
 #friends DIV[class*="headerBar"] {
-  background-color: rgba(0, 0, 0, .71) !Important;
+  background-color: rgba(0, 0, 0, .71) !important;
   box-shadow: none !important;
   /* Thanks Krekevyks */
 }
 
 DIV[class*="channels"][class*="vertical"],
 DIV[class*="scroller"].channel-members {
-  background-color: rgba(0, 0, 0, .45) !Important;
+  background-color: rgba(0, 0, 0, .45) !important;
 }
 
 DIV.flex-spacer.flex-horizontal,
 #friends DIV.friends-table {
-  background-color: rgba(0, 0, 0, .62) !Important;
+  background-color: rgba(0, 0, 0, .62) !important;
 }
 
 .theme-light DIV.layers {
-  background-color: rgba(0, 0, 0, .30) !Important;
+  background-color: rgba(0, 0, 0, .30) !important;
 }
 
 .theme-light DIV[class*="flex-"][class*="title-"],
 .theme-light #friends DIV[class*="headerBar"] {
-  background-color: rgba(0, 0, 0, .58) !Important;
+  background-color: rgba(0, 0, 0, .58) !important;
 }
 
 .theme-light DIV[class*="channels"][class*="vertical"] {
-  background-color: rgba(0, 0, 0, .26) !Important;
+  background-color: rgba(0, 0, 0, .26) !important;
 }
 
 .theme-light DIV.flex-spacer.flex-horizontal,
 .theme-light #friends DIV.friends-table {
-  background-color: rgba(0, 0, 0, .58) !Important;
+  background-color: rgba(0, 0, 0, .58) !important;
 }
 
 /*-------------------------------------------------------------------------*/
@@ -1786,6 +1786,7 @@ input:focus {
 [class*="theme-"] .button-mM-y8i {
   background: var(--main-color);
   -webkit-mask-image: url(https://cdn.rawgit.com/OmgDani/ClearVisionFixes/master/Icons/X.svg);
+  mask-image: url(https://cdn.rawgit.com/OmgDani/ClearVisionFixes/master/Icons/X.svg);
 }
 
 [class*="theme-"] .jumpButton-3DTcS_ {
