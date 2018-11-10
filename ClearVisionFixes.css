@@ -2085,3 +2085,9 @@ input:focus {
 }
 
 /* Yes i know its obvious what each one is, but the hypesquad houses arent and then continuity u know */
+
+/* Mentioning? */
+[class*="theme-"] .description-11DmNu, [class*="theme-"] .descriptionUsername-J_75O8, [class*="theme-"] .descriptionDiscriminator-3vUOCc {
+  color: white;
+}
+/*  */
