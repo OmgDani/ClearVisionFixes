@@ -1274,8 +1274,8 @@ input.quickMessage-2XpSaN.quickMessage-1yeL4E {
   background-color: var(--main-color);
 }
 
-.membersGroup-v9BXpm {
-  color: var(--main-color) !important;
+[class*="theme-"] .membersGroup-v9BXpm {
+  color: var(--main-color);
 }
 
 .react-datepicker .react-datepicker__day {
