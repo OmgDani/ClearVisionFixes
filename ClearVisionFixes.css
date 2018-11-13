@@ -2087,7 +2087,32 @@ input:focus {
 /* Yes i know its obvious what each one is, but the hypesquad houses arent and then continuity u know */
 
 /* Mentioning? */
-[class*="theme-"] .description-11DmNu, [class*="theme-"] .descriptionUsername-J_75O8, [class*="theme-"] .descriptionDiscriminator-3vUOCc {
+[class*="theme-"] .description-11DmNu,
+[class*="theme-"] .descriptionUsername-J_75O8,
+[class*="theme-"] .descriptionDiscriminator-3vUOCc {
   color: white;
 }
 /*  */
+
+[class*="theme-"] .side-8zPYf6 .itemDefault-3Jdr52:hover,
+[class*="theme-"] .side-8zPYf6 .itemHover-EnbcjT:hover {
+  background-color: var(--hover-color);
+  color: #f6f6f7;
+}
+
+.themeDefault-24hCdX.valueChecked-m-4IJZ {
+  background-color: var(--main-color) !important;
+}
+
+ /* Reactions */
+ [class*="theme-"] .container-1If-HZ, [class*="theme-"] .reactors-Blmlhw {
+  background-color: rgba(0,0,0,0.65);
+}
+[class*="theme-"] .reactionSelected-1pqISm {
+  background-color: var(--main-color);
+}
+[class*="theme-"] .sidebar-1-SQro {
+  background: rgba(0,0,0,0.65);
+}
+
+/* */
