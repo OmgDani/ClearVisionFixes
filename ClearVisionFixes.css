@@ -2119,6 +2119,14 @@ class*="theme-"] .side-8zPYf6 .itemDefault-3Jdr52:hover, [class*="theme-"] .side
 .valueUnchecked-2lU_20.sizeDefault-2YlOZr:after {
     background: var(--main-color) !important;
 }
+
+.themeDefault-24hCdX.valueChecked-m-4IJZ {
+    background-color: var(--main-color) !important;
+}
+
+.themeDefault-24hCdX {
+    background-color: var(--hover-color) !important;
+}
 /* */
 
 /* Reactions */
