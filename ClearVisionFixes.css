@@ -2127,6 +2127,10 @@ class*="theme-"] .side-8zPYf6 .itemDefault-3Jdr52:hover, [class*="theme-"] .side
 .themeDefault-24hCdX {
     background-color: var(--hover-color) !important;
 }
+
+.content-column [class*="switch"][class*="valueUnchecked"], .content-column [class*="bar"] .fill[class*="barFill"] {
+    background-color: var(--hover-color) !important;
+}
 /* */
 
 /* Reactions */
