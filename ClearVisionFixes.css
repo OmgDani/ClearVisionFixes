@@ -2090,4 +2090,19 @@ input:focus {
 .paginationItem-2lUq0s:before {
   background: var(--main-color);
 }
-/* */
+/* Add role thing popout menu in server member settings yes */
+.overflowRolesPopoutArrowWrapper-2Dx30g {
+  display: none;
+}
+
+[class*="theme-"] .overflowRolesPopout-140n9i, [class*="theme-"] .overflowRolesPopoutArrow-2O66oH {
+  background-color: rgba(0,0,0,0.6);
+  max-height: 230px;
+  overflow: scroll;
+}
+
+.overflowRolesPopout-140n9i::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+/*  */
