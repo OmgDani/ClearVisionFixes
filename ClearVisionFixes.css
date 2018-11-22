@@ -2085,11 +2085,11 @@ input:focus {
   background: rgba(0, 0, 0, 0.65);
 }
 
-/* */
 /* Store again */
 .paginationItem-2lUq0s:before {
   background: var(--main-color);
 }
+
 /* Add role thing popout menu in server member settings yes */
 .overflowRolesPopoutArrowWrapper-2Dx30g {
   display: none;
@@ -2104,5 +2104,37 @@ input:focus {
 .overflowRolesPopout-140n9i::-webkit-scrollbar {
   width: 6px;
   height: 6px;
+}
+
+/* Server member settings */
+[class*="card"] {
+  background: transparent !important;
+}
+
+[class*="theme-"] .card-FDVird:before {
+  background-color: rgba(0,0,0,0.4);
+  border-color: var(--main-color);
+}
+
+[class*="theme-"] .searchBar-1MOL6S {
+  background-color: rgba(0,0,0,0.6);
+}
+
+[class*="theme-"] .popoutList-T9CKZQ {
+  background: rgba(0,0,0,0.9);
+}
+
+/* Call RTC Connection */
+[class*="theme-"] .container-2x5lvQ header {
+  background-color: rgba(0,0,0,0.9);
+  color: var(--main-color);
+}
+
+[class*="theme-"] .container-2x5lvQ section, [class*="theme-"] .popout-2GtBL-:after {
+  background-color: rgba(0,0,0,0.8);
+}
+
+[class*="theme-"] .container-2x5lvQ section strong {
+  color: var(--main-color);
 }
 /*  */
