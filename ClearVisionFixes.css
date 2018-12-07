@@ -2137,4 +2137,10 @@ input:focus {
 [class*="theme-"] .container-2x5lvQ section strong {
   color: var(--main-color);
 }
+/* Game Activity settings */
+[class*="theme-"].user-settings-games .game {
+  background: transparent !important;
+  -webkit-box-shadow: 0 1px 0 0 var(--hover-color);
+  box-shadow: 0 1px 0 0 var(--hover-color);
+}
 /*  */
