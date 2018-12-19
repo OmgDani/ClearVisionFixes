@@ -1291,7 +1291,7 @@ input.quickMessage-2XpSaN.quickMessage-1yeL4E {
 }
 
 [class*="theme-"] .activityFeed-28jde9 {
-  background-color: transparent !important;
+  background-color: rgba(0, 0, 0, .6) !important;
 }
 
 [class*="theme-"] .headerText-2niCs_ {
@@ -1797,11 +1797,11 @@ input:focus {
 }
 
 [class*="theme-"] .headerBar-UHpsPw {
-  background: transparent;
+  background: rgba(0, 0, 0, .6);
 }
 
 [class*="theme-"] .gameLibrary-TTDw4Y {
-  background: transparent;
+  background: rgba(0, 0, 0, .6);
 }
 
 [class*="theme-"] .guildsError-3cFMtY {
@@ -1858,7 +1858,7 @@ input:focus {
 }
 
 [class*="theme-"] .applicationStore-1pNvnv {
-  background-color: transparent;
+  background-color: rgba(0, 0, 0, 0.6);
 }
 
 @media (min-width: 980px) {
@@ -2148,4 +2148,37 @@ input:focus {
   box-shadow: 0 1px 0 0 var(--hover-color);
 }
 
-/*  */
+/* Gift Inventory */
+[class*="theme-"] .root-1BQpZw {
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+[class*="theme-"] .topPill-30KHOu .itemSelected-1qLhcL {
+  background-color: var(--main-color);
+  color: white;
+}
+
+[class*="theme-"] .topPill-30KHOu .itemSelected-1qLhcL:hover,
+[class*="theme-"] .itemDefault-3Jdr52.item-PXvHYJ.notSelected-1N1G5p:hover {
+  background-color: var(--hover-color);
+}
+
+[class*="theme-"] .input-cIJ7To:hover {
+  border-color: var(--hover-color);
+}
+
+.headerCellContent-1pLtOr {
+  color: var(--hover-color);
+}
+
+[class*="theme-"] .headerCellSorted-3a5AzJ {
+  color: var(--main-color) !important;
+}
+
+.headerCell-2jGIdL.headerCell-3L6rFG.clickable-VxMZ3b {
+  color: var(--hover-color);
+}
+
+.headerCell-2jGIdL.headerCell-3L6rFG.clickable-VxMZ3b:hover {
+  color: var(--main-color);
+}
