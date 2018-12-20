@@ -1896,7 +1896,7 @@ input:focus {
 }
 
 [class*="theme-"] .header-39GIC8 {
-  background: rgba(0, 0, 0, 0.6);
+  background: transparent;
 }
 
 .distributionApplicationsSort-2_uq5y,
@@ -2167,10 +2167,6 @@ input:focus {
   border-color: var(--hover-color);
 }
 
-.headerCellContent-1pLtOr {
-  color: var(--hover-color);
-}
-
 [class*="theme-"] .headerCellSorted-3a5AzJ {
   color: var(--main-color) !important;
 }
@@ -2182,3 +2178,9 @@ input:focus {
 .headerCell-2jGIdL.headerCell-3L6rFG.clickable-VxMZ3b:hover {
   color: var(--main-color);
 }
+/* Video call mini screen thing */
+.overlay-1NmNEg {
+  box-shadow: none;
+  -webkit-box-shadow: none;
+}
+/*  */
