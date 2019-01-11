@@ -340,17 +340,44 @@ textarea.textAreaDisabled-2_o-kZ.textArea-2Spzkt.textArea-2Spzkt.scrollbarGhostH
   background: transparent;
 }
 
-[class*="theme-"] .defaultColor-1_ajX0 {
+[class*="theme-"] .create-3jownz .actionHeader-2CT5c7,
+[class*="theme-"] .header-3ZP1MY {
   color: var(--main-color);
 }
 
 [class*="theme-"] .or-3THJsp {
   border-color: var(--hover-color);
   color: var(--main-color);
+  background-image: none;
+  line-height: 305px;
 }
 
 [class*="theme-"] .separator-gVaq9g {
   border-color: var(--hover-color);
+}
+
+[class*="theme-"] .action-1lSjCi {
+  background: transparent;
+}
+
+[class*="theme-"] .actionButton-2PeQbJ {
+  background-color: var(--main-color);
+}
+
+[class*="theme-"] .create-3jownz:hover .actionButton-2PeQbJ {
+  background-color: var(--hover-color);
+}
+
+[class*="theme-"] .cancelButton-RGXhAE:hover {
+  border-bottom-color: transparent;
+  background: hsla(0, 0%, 100%, .1);
+  border-radius: 5px;
+  color: white;
+}
+
+[class*="theme-"] .cancelButton-RGXhAE {
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
 }
 
 /*--------------------------------Unread mentions and messages---------------------------------------------*/
@@ -869,6 +896,8 @@ button.iconButtonDefault-2cKx7-.iconButton-3V4WS5.action-button.medium-2JR8YY:fi
 
 [class*="theme-"] .footer-2yfCgX {
   background: transparent !important;
+  box-shadow: none;
+  -webkit-box-shadow: none;
 }
 
 .headerStreaming-2FjmGz {
@@ -1956,7 +1985,7 @@ input:focus {
 }
 
 [class*="theme-"] .option-96V44q:after {
-  background: transparent;
+  background: transparent !important;
 }
 
 [class*="theme-"] .standardSidebarView-3F1I7i,
@@ -2178,9 +2207,44 @@ input:focus {
 .headerCell-2jGIdL.headerCell-3L6rFG.clickable-VxMZ3b:hover {
   color: var(--main-color);
 }
+
 /* Video call mini screen thing */
 .overlay-1NmNEg {
   box-shadow: none;
   -webkit-box-shadow: none;
 }
+
+/* quick switcher */
+.quickswitcher-3JagVE {
+  background: rgba(0, 0, 0, 0.85) !important;
+  box-shadow: 0px 0px 20px var(--main-color);
+}
+
+.input-2VB9rf,
+.keybindShortcut-1BD6Z1 span {
+  background: rgba(255, 255, 255, 0.05) !important;
+}
+
+[class*="theme-"] .resultFocused-3aIoYe {
+  background-color: var(--hover-color);
+}
+
+.match-38WbBN {
+  color: white;
+}
+
+/* Search thingy */
+[class*="theme-"] .search-2oPWTC .searchBar-3dMhjb, .searchBar-2_Yu-C.searchBarComponent-32dTOx {
+  background-color: transparent;
+}
+
+.searchBar-6Kv8R2 {
+  box-shadow: none;
+  -webkit-box-shadow: none;
+}
+
+.searchBarIcon-1J6sKG.icon-38sknP {
+  margin: 0px !important;
+}
+
 /*  */
