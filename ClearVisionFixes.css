@@ -2370,4 +2370,8 @@ input:focus {
   border: 1px solid var(--main-color);
   border-radius: 5px;
 }
+/* Pinned Messages */
+.messagesPopoutWrap-1MQ1bW.themedPopout-25DgLi .scrollerWrap-2lJEkd {
+  background-color: rgba(0,0,0,0.8);
+}
 /*  */
