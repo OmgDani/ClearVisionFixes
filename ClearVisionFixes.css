@@ -2255,7 +2255,7 @@ input:focus {
 }
 
 .tooltip-1OS-Ti.black-2bmmnj.top-1pTh1F:after {
-  background-color: white;
+  border-top-color: var(--main-color);
 }
 
 /* Message search */
@@ -2289,3 +2289,4 @@ input:focus {
   border-color: var(--hover-color);
   opacity: 1;
 }
+/*  */
