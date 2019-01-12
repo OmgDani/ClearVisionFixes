@@ -2343,3 +2343,31 @@ input:focus {
 [class*="theme-"] .container-3gCOGc {
   background-color: rgba(0,0,0,0.6);
 }
+/* Emoji picker */
+.searchBar-2_Yu-C.searchBarLight-1NxoDG {
+  background-color: transparent;
+}
+
+.searchBar-2_Yu-C.searchBarLight-1NxoDG input::-webkit-input-placeholder {
+  color: white !important;
+  opacity: .6
+}
+
+.searchBar-2_Yu-C.searchBarLight-1NxoDG input {
+  color: white
+}
+
+.searchBar-2_Yu-C.searchBarLight-1NxoDG .searchBarInner-1_Tg2R {
+  background-color: rgba(0,0,0,0.8);
+  border: 1px solid var(--main-color);
+}
+
+.searchBarIcon-1J6sKG {
+  margin: 0px 10px !important;
+}
+
+.emojiPicker-3m1S-j {
+  border: 1px solid var(--main-color);
+  border-radius: 5px;
+}
+/*  */
