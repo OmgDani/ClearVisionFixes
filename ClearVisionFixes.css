@@ -2259,6 +2259,10 @@ input:focus {
 }
 
 /* Message search */
+[class*="theme-"] .searchResultsWrap-2DKFzt {
+  background-color: transparent;
+}
+
 [class*="theme-"] .searchResult-3pzFAB .searchResultMessage-2VxO12.hit-NLlWXA {
   background-color: rgba(0, 0, 0, 0.6);
   border-color: var(--main-color);
