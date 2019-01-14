@@ -2374,4 +2374,15 @@ input:focus {
 .messagesPopoutWrap-1MQ1bW.themedPopout-25DgLi .scrollerWrap-2lJEkd {
   background-color: rgba(0,0,0,0.8);
 }
+/* User profile buttony thing */
+.top-28JiJ- .itemSelected-1qLhcL {
+  border-color: var(--main-color) !important;
+  color: var(--main-color) !important;
+}
+
+.itemDefault-3Jdr52.item-PXvHYJ.notSelected-1N1G5p.tabBarItem-1b8RUP:hover {
+  background-color: transparent !important;
+  border-color: var(--hover-color) !important;
+  color: var(--hover-color) !important;
+}
 /*  */
