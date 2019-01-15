@@ -2400,7 +2400,7 @@ input:focus {
 
 /* Status dots */
 .channel-2QD9_O .status-1ibiUI,
-.channel-2QD9_O .status-1ibiUI:hover,
+.channel-2QD9_O:hover .status-1ibiUI,
 .channel-2QD9_O.selected-1HYmZZ .status-1ibiUI,
 .theme-dark .status-2kJpnA,
 .theme-light .status-2kJpnA {
