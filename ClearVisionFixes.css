@@ -2261,6 +2261,7 @@ input:focus {
 .tooltip-1OS-Ti.black-2bmmnj.top-1pTh1F:after {
   border-top-color: var(--main-color);
 }
+
 .tooltip-1OS-Ti.black-2bmmnj.right-KM_vfY:after {
   border-right-color: var(--main-color);
 }
@@ -2317,32 +2318,41 @@ input:focus {
 [class*="theme-"] .jumpButton-Ia2hRJ:hover {
   background-color: var(--hover-color);
 }
+
 /* Add Roles thingy */
-[class*="theme-"] .autocompleteArrow-Zxoy9H, [class*="theme-"] .autocompleteHeaderBackground-30T70q {
-  background-color: rgba(0,0,0,0.8);
+[class*="theme-"] .autocompleteArrow-Zxoy9H,
+[class*="theme-"] .autocompleteHeaderBackground-30T70q {
+  background-color: rgba(0, 0, 0, 0.8);
 }
+
 [class*="theme-"] .container-VSDcQc .sectionTag-pXyto9 {
-  background-color: rgba(0,0,0,0.6);
+  background-color: rgba(0, 0, 0, 0.6);
 }
+
 [class*="theme-"] .row-rrHHJU.selected-1pIgLL {
-  background: rgba(0,0,0,0.7);
+  background: rgba(0, 0, 0, 0.7);
   border-radius: 5px;
 }
-[class*="theme-"] .autocompleteArrow-Zxoy9H, [class*="theme-"] .autocompleteShadow-iiGWFU {
+
+[class*="theme-"] .autocompleteArrow-Zxoy9H,
+[class*="theme-"] .autocompleteShadow-iiGWFU {
   box-shadow: 0 2px 10px 0 var(--main-color), 0 0 0 1px var(--main-color);
   -webkit-box-shadow: 0 2px 10px 0 var(--main-color), 0 0 0 1px var(--main-color);
 }
+
 /* Probably gonna break something */
 .scrollerThemed-2oenus.themeDark-2cjlUp.scrollerTrack-1ZIpsv>.scroller-2FKFPG::-webkit-scrollbar-track,
-.scrollerThemed-2oenus.themeDark-2cjlUp.scrollerTrack-1ZIpsv>.scrollerStore-390omS::-webkit-scrollbar-track, 
-[class*="theme-"] .scrollerWrap-2lJEkd.scrollerTrack-1ZIpsv>.scroller-2FKFPG::-webkit-scrollbar-track, 
+.scrollerThemed-2oenus.themeDark-2cjlUp.scrollerTrack-1ZIpsv>.scrollerStore-390omS::-webkit-scrollbar-track,
+[class*="theme-"] .scrollerWrap-2lJEkd.scrollerTrack-1ZIpsv>.scroller-2FKFPG::-webkit-scrollbar-track,
 [class*="theme-"] .scrollerWrap-2lJEkd.scrollerTrack-1ZIpsv>.scrollerStore-390omS::-webkit-scrollbar-track {
   background-color: rgba(0, 0, 0, .6);
 }
+
 /* Friends */
 [class*="theme-"] .container-3gCOGc {
-  background-color: rgba(0,0,0,0.6);
+  background-color: rgba(0, 0, 0, 0.6);
 }
+
 /* Emoji picker */
 .searchBar-2_Yu-C.searchBarLight-1NxoDG {
   background-color: transparent;
@@ -2358,7 +2368,7 @@ input:focus {
 }
 
 .searchBar-2_Yu-C.searchBarLight-1NxoDG .searchBarInner-1_Tg2R {
-  background-color: rgba(0,0,0,0.8);
+  background-color: rgba(0, 0, 0, 0.8);
   border: 1px solid var(--main-color);
 }
 
@@ -2370,10 +2380,12 @@ input:focus {
   border: 1px solid var(--main-color);
   border-radius: 5px;
 }
+
 /* Pinned Messages */
 .messagesPopoutWrap-1MQ1bW.themedPopout-25DgLi .scrollerWrap-2lJEkd {
-  background-color: rgba(0,0,0,0.8);
+  background-color: rgba(0, 0, 0, 0.8);
 }
+
 /* User profile buttony thing */
 .top-28JiJ- .itemSelected-1qLhcL {
   border-color: var(--main-color) !important;
@@ -2385,4 +2397,13 @@ input:focus {
   border-color: var(--hover-color) !important;
   color: var(--hover-color) !important;
 }
+
+/* Status dots */
+.channel-2QD9_O .status-1ibiUI,
+.channel-2QD9_O.selected-1HYmZZ .status-1ibiUI,
+.theme-dark .status-2kJpnA,
+.theme-light .status-2kJpnA {
+  border-color: transparent;
+}
+
 /*  */
