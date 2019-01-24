@@ -2407,4 +2407,47 @@ input:focus {
   border-color: transparent;
 }
 
+/* Invite friends to server */
+.channelNotices-41mJbj .channelNotice-1-XFjC.invite-OjTXrW {
+  background-color: transparent;
+}
+
+/* Account Avatar and status */
+.container-2Thooq .avatarSmall-3ACRaI {
+  background-size: 100%;
+  background-repeat: no-repeat;
+  -webkit-transition: all .15s ease-in-out;
+  transition: all .15s ease-in-out;
+}
+
+.container-2Thooq .avatarSmall-3ACRaI:hover,
+.container-2Thooq .avatarSmall-3ACRaI.popout-open {
+  width: 50px;
+  height: 50px;
+  opacity: 1;
+}
+
+.bd-minimal .container-2Thooq .avatarSmall-3ACRaI:hover,
+.bd-minimal .container-2Thooq .avatarSmall-3ACRaI.popout-open {
+  width: 40px;
+  height: 40px;
+}
+
+.container-2Thooq .accountDetails-3k9g4n .username {
+  -webkit-transition: all .15s ease-in-out;
+  transition: all .15s ease-in-out;
+}
+
+.container-2Thooq .avatarSmall-3ACRaI:hover+.accountDetails-3k9g4n .username,
+.container-2Thooq .avatarSmall-3ACRaI.popout-open+.accountDetails-3k9g4n .username {
+  max-width: 52px;
+}
+
+.container-2Thooq .status-2zcSVk {
+  border: none !important;
+  top: calc(90% - 6.5px);
+  left: calc(90% - 6.5px);
+  z-index: 2;
+}
+
 /*  */
