@@ -2266,6 +2266,10 @@ input:focus {
   border-right-color: var(--main-color);
 }
 
+.tooltip-1OS-Ti {
+  padding: 5px 8px;
+}
+
 /* Message search */
 [class*="theme-"] .searchResultsWrap-2DKFzt {
   background-color: transparent;
