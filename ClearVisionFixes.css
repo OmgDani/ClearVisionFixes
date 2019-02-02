@@ -289,13 +289,6 @@ DIV.slider-handle {
   box-shadow: none !important;
 }
 
-.tooltip.tooltip-top,
-.tooltip.tooltip-right,
-.tooltip.tooltip-bottom,
-.tooltip.tooltip-left {
-  background: var(--main-color) !important;
-}
-
 .private .private-channel-call-btns-wrapper button:nth-child(1) span {
   background-image: url(https://cdn.rawgit.com/Zerthox/ClearVision/master/icons/videocam.svg) !important;
 }
@@ -2258,12 +2251,10 @@ input:focus {
   color: white
 }
 
-.tooltip-1OS-Ti.black-2bmmnj.top-1pTh1F:after {
-  border-top-color: var(--main-color);
-}
-
+.tooltip-1OS-Ti.black-2bmmnj.top-1pTh1F:after,
+.tooltip-1OS-Ti.black-2bmmnj.left-1wV7VO:after,
 .tooltip-1OS-Ti.black-2bmmnj.right-KM_vfY:after {
-  border-right-color: var(--main-color);
+  border-top-color: var(--main-color);
 }
 
 .tooltip-1OS-Ti {
