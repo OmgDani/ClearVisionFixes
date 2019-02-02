@@ -2251,10 +2251,16 @@ input:focus {
   color: white
 }
 
-.tooltip-1OS-Ti.black-2bmmnj.top-1pTh1F:after,
-.tooltip-1OS-Ti.black-2bmmnj.left-1wV7VO:after,
-.tooltip-1OS-Ti.black-2bmmnj.right-KM_vfY:after {
+.tooltip-1OS-Ti.black-2bmmnj.top-1pTh1F:after {
   border-top-color: var(--main-color);
+}
+
+.tooltip-1OS-Ti.black-2bmmnj.left-1wV7VO:after {
+  border-left-color: var(--main-color)
+}
+
+.tooltip-1OS-Ti.black-2bmmnj.right-KM_vfY:after {
+  border-right-color: var(--main-color)
 }
 
 .tooltip-1OS-Ti {
