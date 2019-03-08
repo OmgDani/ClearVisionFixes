@@ -1456,16 +1456,16 @@ span.wrapperHover-1GktnT.wrapper-3WhCwL:hover {
 }
 
 /*---------------------------------------------------*/
-[class*="theme-"] .guildsWrapper-5TJh6A {
+[class*="theme-"] .wrapper-1Rf91z {
   background-color: rgba(0, 0, 0, 0.35);
 }
 
-.wrapper-232cHJ.badge-1GsMF2 {
+.wrapper-232cHJ {
   -webkit-animation: badge 1s ease-in-out infinite alternate;
   animation: badge 1s ease-in-out infinite alternate;
 }
 
-.wrapper-232cHJ.badge-1GsMF2 {
+.wrapper-232cHJ {
   padding: 3px 5px;
   background-color: var(--main-color);
   -webkit-box-shadow: none;
@@ -1473,36 +1473,40 @@ span.wrapperHover-1GktnT.wrapper-3WhCwL:hover {
   font-weight: 600;
 }
 
-.selected-ML3OIq .guildInner-3DSoA4 .homeIcon-1FoKUJ {
-  background-color: var(--main-color) !important;
+[class*="theme-"] .homeButton-2Cw51C[style*="background-color"] {
+  background: var(--main-color) !important;
 }
 
-[class*="theme-"] .guild-1EfMGQ.unread-qLkInr:before {
+[class*="theme-"] .homeButton-2Cw51C[style*="47, 49, 54"] {
+  background-color: rgba(0, 0, 0, 0.5) !important;
+}
+
+[class*="theme-"] .container-2td-dC.unread-2OHH1w:before {
   background-color: var(--main-color);
 }
 
-[class*="theme-"] .guild-1EfMGQ.selected-ML3OIq:before {
+[class*="theme-"] .container-2td-dC.selected-nT-gM3:before {
   background: var(--main-color) !important;
   animation: selectserver .5s cubic-bezier(0.22, 0.61, 0.36, 1);
   -webkit-animation: selectserver .5s cubic-bezier(0.22, 0.61, 0.36, 1);
 }
 
-[class*="theme-"] .guildsAdd-21_IdK {
+[class*="theme-"] .circleIconButton-jET_ig {
   background: rgba(0, 0, 0, 0.5);
   border-color: var(--main-color);
   color: var(--main-color);
 }
 
-[class*="theme-"] .guildsAdd-21_IdK:hover {
+[class*="theme-"] .circleIconButton-jET_ig:hover {
   border-color: var(--hover-color);
   color: var(--hover-color);
 }
 
-[class*="theme-"] .guild-1EfMGQ .guildInner-3DSoA4 {
+[class*="theme-"] .wrapper-2lTRaf {
   background: rgba(0, 0, 0, 0.5) !important;
 }
 
-[class*="theme-"] .friendsOnline-_wi_fM {
+[class*="theme-"] .friendsOnline-2JkivW {
   background: rgba(21, 21, 21, 0.41);
   border-radius: 25px;
   color: #DCDCDC;
@@ -1513,7 +1517,7 @@ span.wrapperHover-1GktnT.wrapper-3WhCwL:hover {
   cursor: default;
 }
 
-.homeIcon-1FoKUJ:hover {
+.homeIcon-tEMBK1:hover {
   background: var(--hover-color);
 }
 
@@ -2451,62 +2455,4 @@ input:focus {
   z-index: 2;
 }
 
-/* Guilds Wrapper */
-
-[class*="theme-"] .wrapper-1Rf91z {
-  background-color: rgba(0, 0, 0, 0.35);
-}
-[class*="theme-"] .guild-1EfMGQ.unread-qLkInr:before {
-  background-color: var(--main-color);
-}
-[class*="theme-"] .homeIcon-tEMBK1:hover {
-  background: var(--hover-color);
-}
-[class*="theme-"] .homeButton-2Cw51C[style*="background-color"] {
-    background:var(--main-color) !important;
-}
-[class*="theme-"] .homeButton-2Cw51C[style*="47, 49, 54"] {
-    background-color:rgba(0, 0, 0, 0.5) !important;
-}
-[class*="theme-"] .container-2td-dC.selected-nT-gM3:before {
-  background: var(--main-color) !important;
-  animation: selectserver .5s cubic-bezier(0.22, 0.61, 0.36, 1);
-  -webkit-animation: selectserver .5s cubic-bezier(0.22, 0.61, 0.36, 1);
-}
-[class*="theme-"] .circleIconButton-jET_ig {
-  background: rgba(0, 0, 0, 0.5);
-  border-color: var(--main-color);
-  color: var(--main-color);
-}
-[class*="theme-"] .circleIconButton-jET_ig:hover {
-  border-color: var(--hover-color);
-  color: var(--hover-color);
-}
-[class*="theme-"] .wrapper-2lTRaf {
-  background: rgba(0, 0, 0, 0.5) !important;
-}
-[class*="theme-"] .friendsOnline-2JkivW {
-  background: rgba(21, 21, 21, 0.41);
-  border-radius: 25px;
-  color: #DCDCDC;
-  text-transform: uppercase;
-  -webkit-transition: all .3s ease-in-out;
-  transition: all .3s ease-in-out;
-  overflow: hidden;
-  cursor: default;
-}
-
-.wrapper-232cHJ {
-    -webkit-animation: badge 1s ease-in-out infinite alternate;
-    animation: badge 1s ease-in-out infinite alternate;
-}
-
-.wrapper-232cHJ {
-    padding: 3px 5px;
-    background-color: var(--main-color);
-    -webkit-box-shadow: none;
-    box-shadow: none;
-    font-weight: 600;
-}
-
-/* */
+/*  */
