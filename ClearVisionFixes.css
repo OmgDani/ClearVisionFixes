@@ -2479,7 +2479,7 @@ input:focus {
 }
 
 .wrapper-1ucjTd.modeUnread-1zpFdA .content-3at_AU .icon-1_QxNX {
-  color: var(--main-color);
+  color: #fff;
   opacity: 1
 }
 
@@ -2495,6 +2495,10 @@ input:focus {
   color: var(--main-color);
 }
 
+.wrapper-1ucjTd.modeUnread-1zpFdA .content-3at_AU .name-3_Dsmg {
+  color: #fff;
+}
+
 .channels-Ie2l6A .listDefault-2y5Z9D .voiceUser-14U_Ns:hover .content-3xS9Lh,
 .channels-Ie2l6A .listDefault-2y5Z9D .voiceUser-14U_Ns:active .content-3xS9Lh,
 .channels-Ie2l6A .listDefault-2y5Z9D .voiceUser-14U_Ns.selected-3TGCSZ .content-3xS9Lh {
@@ -2505,10 +2509,6 @@ input:focus {
 .channels-Ie2l6A .listDefault-2y5Z9D .voiceUser-14U_Ns:active .username-lm8y6T,
 .channels-Ie2l6A .listDefault-2y5Z9D .voiceUser-14U_Ns.selected-3TGCSZ .username-lm8y6T {
   color: rgba(255, 255, 255, 0.7)
-}
-
-.wrapper-1ucjTd.modeUnread-1zpFdA .content-3at_AU .name-3_Dsmg {
-  color: var(--main-color);
 }
 
 .numberBadge-2s8kKX {
@@ -2532,7 +2532,7 @@ input:focus {
 
 
 .unread-3zKkbm {
-  display: none
+  background-color: var(--main-color) !important;
 }
 
 .button-OhfaWu.selected-wSa2KV {
@@ -2541,4 +2541,8 @@ input:focus {
 
 .button-OhfaWu.selected-wSa2KV:hover {
     background-color: var(--hover-color) !important;
+}
+
+.wrapper-1ucjTd:hover .content-3at_AU {
+  background-color: var(--hover-color) !important;
 }
