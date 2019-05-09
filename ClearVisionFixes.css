@@ -2456,3 +2456,81 @@ input:focus {
 }
 
 /*  */
+
+.content-3at_AU .icon-1_QxNX {
+  width: 18px;
+  height: 18px;
+  margin-right: 3px;
+  color: rgba(255, 255, 255, 0.3);
+  opacity: 1;
+  transition: all .15s ease-in-out
+}
+
+.content-3at_AU .icon-1_QxNX>path {
+  opacity: .7
+}
+
+.content-3at_AU .icon-1_QxNX>path:last-of-type {
+  opacity: 1
+}
+
+.containerDefault-1ZnADq .wrapper-1ucjTd:hover .content-3at_AU .icon-1_QxNX {
+  color: rgba(255, 255, 255, 0.7)
+}
+
+.wrapper-1ucjTd.modeUnread-1zpFdA .content-3at_AU .icon-1_QxNX {
+  color: var(--main-color);
+  opacity: 1
+}
+
+.wrapper-1ucjTd.modeUnread-1zpFdA:hover .content-3at_AU .icon-1_QxNX {
+  color: #fff
+}
+
+.containerDefault-1ZnADq .wrapper-1ucjTd.modeSelected-1zApJ_ .content-3at_AU .icon-1_QxNX {
+  color: #fff
+}
+
+.wrapper-1ucjTd.modeConnected-2IEL4z .content-3at_AU .icon-1_QxNX {
+  color: var(--main-color);
+}
+
+.channels-Ie2l6A .listDefault-2y5Z9D .voiceUser-14U_Ns:hover .content-3xS9Lh,
+.channels-Ie2l6A .listDefault-2y5Z9D .voiceUser-14U_Ns:active .content-3xS9Lh,
+.channels-Ie2l6A .listDefault-2y5Z9D .voiceUser-14U_Ns.selected-3TGCSZ .content-3xS9Lh {
+  background: rgba(255, 255, 255, 0.04)
+}
+
+.channels-Ie2l6A .listDefault-2y5Z9D .voiceUser-14U_Ns:hover .username-lm8y6T,
+.channels-Ie2l6A .listDefault-2y5Z9D .voiceUser-14U_Ns:active .username-lm8y6T,
+.channels-Ie2l6A .listDefault-2y5Z9D .voiceUser-14U_Ns.selected-3TGCSZ .username-lm8y6T {
+  color: rgba(255, 255, 255, 0.7)
+}
+
+.wrapper-1ucjTd.modeUnread-1zpFdA .content-3at_AU .name-3_Dsmg {
+  color: var(--main-color);
+}
+
+.numberBadge-2s8kKX {
+  background: var(--main-color) !important;
+  box-shadow: 0 0 10px -3px var(--main-color), 0 0 0 1px var(--main-color);
+  color: #fff;
+  font-size: 12px;
+  font-weight: 600;
+  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.25);
+  line-height: 12px;
+  transition: all .3s ease-in-out
+}
+
+.wrapper-1ucjTd.modeSelected-1zApJ_ .content-3at_AU {
+  background-color: var(--main-color) !important;
+}
+
+.scroller-2TZvBN .item-2hkk8m {
+  background: var(--main-color);
+}
+
+
+.unread-3zKkbm {
+  display: none
+}
