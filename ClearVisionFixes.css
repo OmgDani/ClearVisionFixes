@@ -2534,3 +2534,11 @@ input:focus {
 .unread-3zKkbm {
   display: none
 }
+
+.button-OhfaWu.selected-wSa2KV {
+    background-color: var(--main-color) !important;
+}
+
+.button-OhfaWu.selected-wSa2KV:hover {
+    background-color: var(--hover-color) !important;
+}
