@@ -2574,3 +2574,7 @@ input:focus {
 .topPill-30KHOu .themed-OHr7kt.item-PXvHYJ:hover {
   background-color: var(--hover-color) !important;
 }
+
+.guildsError-b7zR5H {
+  background: rgba(0, 0, 0, .5) !important;
+}
