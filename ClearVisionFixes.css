@@ -1312,7 +1312,7 @@ input.quickMessage-2XpSaN.quickMessage-1yeL4E {
   left: 0px !important;
 }
 
-[class*="theme-"] .activityFeed-28jde9 {
+.activityFeed-1C0EmJ {
   background-color: rgba(0, 0, 0, .6) !important;
 }
 
@@ -2354,8 +2354,8 @@ input:focus {
 }
 
 /* Friends */
-[class*="theme-"] .container-3gCOGc {
-  background-color: rgba(0, 0, 0, 0.6);
+.container-1r6BKw {
+  background-color: rgba(0, 0, 0, 0.6) !important;
 }
 
 /* Emoji picker */
@@ -2544,5 +2544,33 @@ input:focus {
 }
 
 .wrapper-1ucjTd:hover .content-3at_AU {
+  background-color: var(--hover-color) !important;
+}
+
+.button-OhfaWu {
+  background-color: rgba(0, 0, 0, .6) !important;
+}
+
+.acronym-2mOFsV {
+  background-color: rgba(0, 0, 0, .6) !important;
+}
+
+.children-19S4PO:after {
+  background: transparent !important;
+}
+
+.side-8zPYf6 .themed-OHr7kt.selected-3s45Ha.item-PXvHYJ {
+  background-color: var(--main-color) !important;
+}
+
+.side-8zPYf6 .themed-OHr7kt.item-PXvHYJ:hover {
+  background-color: var(--hover-color) !important;
+}
+
+.topPill-30KHOu .themed-OHr7kt.selected-3s45Ha.item-PXvHYJ {
+  background-color: var(--main-color) !important;
+}
+
+.topPill-30KHOu .themed-OHr7kt.item-PXvHYJ:hover {
   background-color: var(--hover-color) !important;
 }
