@@ -2536,11 +2536,11 @@ input:focus {
 }
 
 .button-OhfaWu.selected-wSa2KV {
-    background-color: var(--main-color) !important;
+  background-color: var(--main-color) !important;
 }
 
 .button-OhfaWu.selected-wSa2KV:hover {
-    background-color: var(--hover-color) !important;
+  background-color: var(--hover-color) !important;
 }
 
 .wrapper-1ucjTd:hover .content-3at_AU {
@@ -2577,4 +2577,8 @@ input:focus {
 
 .guildsError-b7zR5H {
   background: rgba(0, 0, 0, .5) !important;
+}
+
+.container-3gCOGc {
+  background-color: rgba(0, 0, 0, 0.6) !important;
 }
