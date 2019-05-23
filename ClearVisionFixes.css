@@ -2582,3 +2582,7 @@ input:focus {
 .container-3gCOGc {
   background-color: rgba(0, 0, 0, 0.6) !important;
 }
+
+.listItem-2P_4kh.selected.badge {
+  background-color: transparent;
+}
