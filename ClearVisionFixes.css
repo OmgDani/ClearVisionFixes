@@ -2583,6 +2583,6 @@ input:focus {
   background-color: rgba(0, 0, 0, 0.6) !important;
 }
 
-.listItem-2P_4kh .badge {
+.listItem-2P_4kh.badge {
   background-color: transparent;
 }
