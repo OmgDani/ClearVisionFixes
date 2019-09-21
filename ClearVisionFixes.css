@@ -2523,7 +2523,7 @@ input:focus {
 }
 
 .wrapper-1ucjTd.modeSelected-1zApJ_ .content-3at_AU {
-  background-color: var(--main-color) !important;
+  background-color: var(--main-color);
 }
 
 .scroller-2TZvBN .item-2hkk8m {
@@ -2585,4 +2585,31 @@ input:focus {
 
 .listItem-2P_4kh.badge {
   background-color: transparent;
+}
+
+.app-2rEoOp,
+.panels-j1Uci_,
+.messages-3amgkR,
+.scroller-2TZvBN,
+.sidebarRegionScroller-3MXcoP,
+.contentRegionScroller-26nc1e {
+  background: transparent;
+}
+
+.sidebar-2K8pFh {
+  background: rgba(0, 0, 0, 0.55);
+}
+
+.childWrapper-anI2G9 {
+  background-color: var(--main-color);
+}
+
+.wrapper-1BJsBx.selected-bZ3Lue .childWrapper-anI2G9,
+.wrapper-1BJsBx:hover .childWrapper-anI2G9 {
+  color: #fff;
+  background-color: var(--hover-color);
+}
+
+.bodyInner-245q0L {
+  background-color: transparent !important;
 }
