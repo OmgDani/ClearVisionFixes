@@ -2624,3 +2624,15 @@ input:focus {
 .friendsTable-133bsv .friendsTableBody-1ZhKif {
    background-color: transparent;
 }
+
+.messagesPopout-24nkyi {
+  background-color: transparent !important;
+}
+
+.header-ykumBX {
+  background: rgba(0,0,0,0.6) !important;
+}
+
+.messagesPopoutWrap-1MQ1bW {
+  background: rgba(0,0,0,0.7) !important;
+}
