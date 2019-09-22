@@ -2615,3 +2615,11 @@ input:focus {
 .bodyInner-245q0L {
   background-color: transparent !important;
 }
+
+.scroller-1IIF0A, .scroller-9moviB {
+  background-color: rgba(0,0,0,0.3);
+}
+
+.friendsTable-133bsv .friendsTableBody-1ZhKif {
+   background-color: transparent;
+}
