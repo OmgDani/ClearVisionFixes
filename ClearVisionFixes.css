@@ -2636,3 +2636,7 @@ input:focus {
 .messagesPopoutWrap-1MQ1bW {
   background: rgba(0,0,0,0.7) !important;
 }
+
+.expandedFolderBackground-2sPsd- {
+    background: hsla(0, 0%, 100%, .1);
+}
